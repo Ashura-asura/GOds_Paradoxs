@@ -1,0 +1,21 @@
+{
+  "selector_comparison": {
+    "lex": {
+      "n_distinct_attractors": 25,
+      "frac_twin_positive": 0.26666666666666666
+    },
+    "entropy": {
+      "n_distinct_attractors": 24,
+      "frac_twin_positive": 0.16666666666666666
+    }
+  },
+  "n16_feasibility": {
+    "N": 16,
+    "M": 40,
+    "steps": 30,
+    "seconds": 0.00552821159362793,
+    "ms_per_step": 0.18427371978759766,
+    "final_aut": 1,
+    "final_theta": 0
+  }
+}

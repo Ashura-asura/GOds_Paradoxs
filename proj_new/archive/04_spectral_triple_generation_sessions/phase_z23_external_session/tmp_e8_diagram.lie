@@ -1,0 +1,6 @@
+setdefault E8;
+print("E8 diagram:"); print(diagram(E8));
+m = fundam(id(8) - 8);
+print("Levi fundam matrix (delete node 8):"); print(m);
+h = Cartan_type(m);
+print(h);

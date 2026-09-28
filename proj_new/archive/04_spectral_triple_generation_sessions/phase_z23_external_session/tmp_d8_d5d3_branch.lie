@@ -1,0 +1,11 @@
+setdefault D8;
+c = closure([ [1,0,0,0,0,0,0,0], [0,1,0,0,0,0,0,0], [0,0,1,0,0,0,0,0], [0,0,0,1,0,0,0,0], [0,0,0,1,2,2,1,1], [0,0,0,0,0,1,0,0], [0,0,0,0,0,0,1,0], [0,0,0,0,0,0,0,1] ]);
+h = Cartan_type(c);
+rm = res_mat(c);
+print("restriction matrix:"); print(rm);
+print("120 (adjoint D8) -> D5xA3:");
+print(branch([0,1,0,0,0,0,0,0], h, rm));
+print("128 (spinor) -> D5xA3:");
+print(branch([0,0,0,0,0,0,1,0], h, rm));
+print("vector 16 -> D5xA3:");
+print(branch([1,0,0,0,0,0,0,0], h, rm));

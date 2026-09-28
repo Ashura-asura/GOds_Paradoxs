@@ -1,0 +1,8 @@
+setdefault E6;
+v = null(6);
+v[1] = 1;
+w = tensor(v, null(6));
+t = tensor(w, w);
+tt = tensor(t, w);
+print(tt);
+for n = 1 to length(tt) do print(expon(tt, n)); print(coef(tt, n)); print(dim(expon(tt, n))); od;

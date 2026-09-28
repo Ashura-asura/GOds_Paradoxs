@@ -1,0 +1,14 @@
+setdefault A4;
+print("A4 label dims:");
+print(dim([0,0,0,0]));
+print(dim([1,0,0,0]));
+print(dim([0,1,0,0]));
+print(dim([0,0,1,0]));
+print(dim([0,0,0,1]));
+print(dim([0,0,2,0]));
+print(dim([2,0,0,0]));
+print(dim([1,0,1,0]));
+print(dim([0,1,0,1]));
+print(dim([1,0,0,1]));
+print(dim([0,2,0,0]));
+print(dim([1,1,0,0]));

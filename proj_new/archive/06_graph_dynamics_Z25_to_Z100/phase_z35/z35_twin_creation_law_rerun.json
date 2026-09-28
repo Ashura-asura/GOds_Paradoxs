@@ -1,0 +1,38 @@
+{
+ "cell": [
+  10,
+  15
+ ],
+ "n_steps": 2569,
+ "n_jump_twin": 1611,
+ "twin_rate": 0.6271,
+ "H_T": 0.9529,
+ "I_tau": 0.1188,
+ "I_var": 0.2147,
+ "I_rep": 0.008,
+ "I_deg": 0.2227,
+ "I_joint": 0.467,
+ "I_deg_given_tau": 0.3481,
+ "I_tau_given_deg": 0.2443,
+ "H2_wins": false,
+ "H1_wins": false,
+ "H3_wins": false,
+ "verdict": "mixed - see tables",
+ "P_twin_given_tau_top": {
+  "(3, 5)": 1.0,
+  "(2, 6)": 1.0,
+  "(3, 8)": 1.0,
+  "(5, 5)": 1.0,
+  "(1, 3)": 0.7934
+ },
+ "P_twin_given_varebin": {
+  "low": 0.2579,
+  "med": 0.7933,
+  "high": 0.834
+ },
+ "control_null_mean_twin_gain": 0.017,
+ "control_null_rate": 0.2041,
+ "control_obs_rate": 0.6271,
+ "complement_mean_twin_gain": 1.966,
+ "observed_mean_twin_gain": 1.966
+}

@@ -1,0 +1,101 @@
+{
+  "N=6,M=5(sparse,rho=0.33)": {
+    "n_valid": 25,
+    "channel_counts": {
+      "QUOTIENT": 22,
+      "TWIN": 3
+    },
+    "dominant": "QUOTIENT"
+  },
+  "N=6,M=8(medium,rho=0.53)": {
+    "n_valid": 25,
+    "channel_counts": {
+      "QUOTIENT": 21,
+      "TWIN": 4
+    },
+    "dominant": "QUOTIENT"
+  },
+  "N=6,M=12(dense,rho=0.80)": {
+    "n_valid": 25,
+    "channel_counts": {
+      "TWIN": 25
+    },
+    "dominant": "TWIN"
+  },
+  "N=8,M=7(sparse,rho=0.25)": {
+    "n_valid": 25,
+    "channel_counts": {
+      "TWIN": 3,
+      "QUOTIENT": 22
+    },
+    "dominant": "QUOTIENT"
+  },
+  "N=8,M=14(medium,rho=0.50)": {
+    "n_valid": 25,
+    "channel_counts": {
+      "TRIVIAL": 19,
+      "TWIN": 1,
+      "QUOTIENT": 5
+    },
+    "dominant": "TRIVIAL"
+  },
+  "N=8,M=22(dense,rho=0.79)": {
+    "n_valid": 25,
+    "channel_counts": {
+      "TWIN": 24,
+      "QUOTIENT": 1
+    },
+    "dominant": "TWIN"
+  },
+  "N=10,M=9(sparse,rho=0.20)": {
+    "n_valid": 25,
+    "channel_counts": {
+      "QUOTIENT": 18,
+      "TWIN": 7
+    },
+    "dominant": "QUOTIENT"
+  },
+  "N=10,M=22(medium,rho=0.49)": {
+    "n_valid": 25,
+    "channel_counts": {
+      "TRIVIAL": 18,
+      "QUOTIENT": 2,
+      "TWIN": 5
+    },
+    "dominant": "TRIVIAL"
+  },
+  "N=10,M=36(dense,rho=0.80)": {
+    "n_valid": 25,
+    "channel_counts": {
+      "QUOTIENT": 21,
+      "TWIN": 4
+    },
+    "dominant": "QUOTIENT"
+  },
+  "N=12,M=13(sparse,rho=0.20)": {
+    "n_valid": 25,
+    "channel_counts": {
+      "TWIN": 10,
+      "QUOTIENT": 13,
+      "TRIVIAL": 2
+    },
+    "dominant": "QUOTIENT"
+  },
+  "N=12,M=33(medium,rho=0.50)": {
+    "n_valid": 25,
+    "channel_counts": {
+      "TRIVIAL": 24,
+      "TWIN": 1
+    },
+    "dominant": "TRIVIAL"
+  },
+  "N=12,M=53(dense,rho=0.80)": {
+    "n_valid": 25,
+    "channel_counts": {
+      "QUOTIENT": 8,
+      "TWIN": 14,
+      "TRIVIAL": 3
+    },
+    "dominant": "TWIN"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "max_deviation_from_pure_kronecker_structure": 0.0,
+  "family_block_is_rigid_identity_times_scalar": true,
+  "interpretation": "max_deviation ~ 0 (machine precision) confirms, by direct matrix computation rather than assertion, that every SU(5)_A generator acts on the (5_A, 10bar_B)-type pieces as (matrix on 5_A) KRONECKER (scalar x I_10) -- i.e. the SU(5)_B family block is carried along completely rigidly and identically for every entry, with zero mixing into family indices. This is the operational definition of a bare tensor product, and is structurally the OPPOSITE of what Z43 found for the SU(9)-tensor (8,8) piece, where color and family indices were provably inseparable (no basis choice could write an (8,8) state as color-part KRONECKER family-part). Verdict: SU(5)_A x SU(5)_B is NOT a plethysm-type construction. It is mechanism-identical in kind to E6 x SU(3)_f (Z6-Z42) -- a product-type maximal subalgebra with family sitting in an untouched separate tensor factor."
+}

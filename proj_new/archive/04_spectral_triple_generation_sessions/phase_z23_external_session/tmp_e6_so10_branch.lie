@@ -1,0 +1,10 @@
+setdefault E6;
+m = fundam(id(6) - 6);
+h = Cartan_type(m);
+print(h);
+r = res_mat(m);
+print(r);
+v = null(6);
+v[1] = 1;
+b = branch(v, h, r);
+print(b);

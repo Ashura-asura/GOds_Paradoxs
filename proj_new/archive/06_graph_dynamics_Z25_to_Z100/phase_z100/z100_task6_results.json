@@ -1,0 +1,210 @@
+{
+  "identity_N5_M4": {
+    "N": 5,
+    "M": 4,
+    "n_labeled": 210,
+    "n_classes": 6,
+    "Nfact": 120,
+    "sum_aut_over_Nfact": 6.0,
+    "identity1_orbit_count_holds": true,
+    "identity2_per_class_mass_equals_Nfact": true,
+    "per_class_masses_sample": {
+      "((0, 1), (0, 2), (0, 3), (0, 4))": 120,
+      "((0, 1), (0, 2), (0, 3), (1, 2))": 120,
+      "((0, 1), (0, 2), (0, 3), (1, 4))": 120
+    }
+  },
+  "identity_N5_M6": {
+    "N": 5,
+    "M": 6,
+    "n_labeled": 210,
+    "n_classes": 6,
+    "Nfact": 120,
+    "sum_aut_over_Nfact": 6.0,
+    "identity1_orbit_count_holds": true,
+    "identity2_per_class_mass_equals_Nfact": true,
+    "per_class_masses_sample": {
+      "((0, 1), (0, 2), (0, 3), (0, 4), (1, 2), (1, 3))": 120,
+      "((0, 1), (0, 2), (0, 3), (0, 4), (1, 2), (3, 4))": 120,
+      "((0, 1), (0, 2), (0, 3), (1, 2), (1, 3), (2, 3))": 120
+    }
+  },
+  "identity_N6_M6": {
+    "N": 6,
+    "M": 6,
+    "n_labeled": 5005,
+    "n_classes": 21,
+    "Nfact": 720,
+    "sum_aut_over_Nfact": 21.0,
+    "identity1_orbit_count_holds": true,
+    "identity2_per_class_mass_equals_Nfact": true,
+    "per_class_masses_sample": {
+      "((0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (1, 2))": 720,
+      "((0, 1), (0, 2), (0, 3), (0, 4), (1, 2), (1, 3))": 720,
+      "((0, 1), (0, 2), (0, 3), (0, 4), (1, 2), (1, 5))": 720
+    }
+  },
+  "identity_N6_M8": {
+    "N": 6,
+    "M": 8,
+    "n_labeled": 6435,
+    "n_classes": 24,
+    "Nfact": 720,
+    "sum_aut_over_Nfact": 24.0,
+    "identity1_orbit_count_holds": true,
+    "identity2_per_class_mass_equals_Nfact": true,
+    "per_class_masses_sample": {
+      "((0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (1, 2), (1, 3), (1, 4))": 720,
+      "((0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (1, 2), (1, 3), (2, 3))": 720,
+      "((0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (1, 2), (1, 3), (2, 4))": 720
+    }
+  },
+  "dynamics_N5_M4_p0.0": {
+    "n_classes": 6,
+    "total_labeled": 210,
+    "tv_distances": {
+      "uniform_labeled": 0.7142857142857142,
+      "uniform_quotient": 0.8333333333333335,
+      "aut_weighted": 0.96
+    },
+    "top_visited_classes": [
+      {
+        "aut": 2,
+        "visits": 2800
+      }
+    ],
+    "max_aut_in_atlas": 24
+  },
+  "dynamics_N5_M4_p1.0": {
+    "n_classes": 6,
+    "total_labeled": 210,
+    "tv_distances": {
+      "uniform_labeled": 0.6666666666666666,
+      "uniform_quotient": 0.6666666666666667,
+      "aut_weighted": 0.72
+    },
+    "top_visited_classes": [
+      {
+        "aut": 2,
+        "visits": 1400
+      },
+      {
+        "aut": 12,
+        "visits": 1400
+      }
+    ],
+    "max_aut_in_atlas": 24
+  },
+  "dynamics_N5_M6_p0.0": {
+    "n_classes": 6,
+    "total_labeled": 210,
+    "tv_distances": {
+      "uniform_labeled": 0.6904761904761905,
+      "uniform_quotient": 0.6666666666666667,
+      "aut_weighted": 0.48
+    },
+    "top_visited_classes": [
+      {
+        "aut": 2,
+        "visits": 1400
+      },
+      {
+        "aut": 24,
+        "visits": 1400
+      }
+    ],
+    "max_aut_in_atlas": 24
+  },
+  "dynamics_N5_M6_p1.0": {
+    "n_classes": 6,
+    "total_labeled": 210,
+    "tv_distances": {
+      "uniform_labeled": 0.7142857142857142,
+      "uniform_quotient": 0.8333333333333335,
+      "aut_weighted": 0.96
+    },
+    "top_visited_classes": [
+      {
+        "aut": 2,
+        "visits": 2800
+      }
+    ],
+    "max_aut_in_atlas": 24
+  },
+  "dynamics_N6_M6_p0.0": {
+    "n_classes": 21,
+    "total_labeled": 5005,
+    "tv_distances": {
+      "uniform_labeled": 0.9250749250749253,
+      "uniform_quotient": 0.904761904761905,
+      "aut_weighted": 0.7607655502392346
+    },
+    "top_visited_classes": [
+      {
+        "aut": 2,
+        "visits": 1400
+      },
+      {
+        "aut": 48,
+        "visits": 1400
+      }
+    ],
+    "max_aut_in_atlas": 72
+  },
+  "dynamics_N6_M6_p1.0": {
+    "n_classes": 21,
+    "total_labeled": 5005,
+    "tv_distances": {
+      "uniform_labeled": 0.8561438561438564,
+      "uniform_quotient": 0.9047619047619051,
+      "aut_weighted": 0.9808612440191389
+    },
+    "top_visited_classes": [
+      {
+        "aut": 2,
+        "visits": 1400
+      },
+      {
+        "aut": 2,
+        "visits": 1400
+      }
+    ],
+    "max_aut_in_atlas": 72
+  },
+  "dynamics_N6_M8_p0.0": {
+    "n_classes": 24,
+    "total_labeled": 6435,
+    "tv_distances": {
+      "uniform_labeled": 0.9813519813519812,
+      "uniform_quotient": 0.9583333333333338,
+      "aut_weighted": 0.9568345323741008
+    },
+    "top_visited_classes": [
+      {
+        "aut": 6,
+        "visits": 2800
+      }
+    ],
+    "max_aut_in_atlas": 48
+  },
+  "dynamics_N6_M8_p1.0": {
+    "n_classes": 24,
+    "total_labeled": 6435,
+    "tv_distances": {
+      "uniform_labeled": 0.916083916083916,
+      "uniform_quotient": 0.9166666666666669,
+      "aut_weighted": 0.9568345323741008
+    },
+    "top_visited_classes": [
+      {
+        "aut": 4,
+        "visits": 1400
+      },
+      {
+        "aut": 2,
+        "visits": 1400
+      }
+    ],
+    "max_aut_in_atlas": 48
+  }
+}

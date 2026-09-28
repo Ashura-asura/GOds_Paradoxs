@@ -1,0 +1,15 @@
+setdefault G2;
+# G2 -> A2 regular subalgebra via the long-root subsystem:
+# beta1 = alpha2 = (-1,2), beta2 = 3*alpha1+alpha2 = (5,-7)
+rm = [[-1,2],[5,-7]];
+print("7 -> A2:"); print(branch([1,0], A2, rm, G2));
+print("14 -> A2:"); print(branch([0,1], A2, rm, G2));
+print("27 -> A2:"); print(branch([2,0], A2, rm, G2));
+print("G2 dims:"); print(dim([0,0])); print(dim([1,0])); print(dim([0,1]));
+print(dim([2,0])); print(dim([1,1])); print(dim([3,0])); print(dim([0,2]));
+print(dim([2,1])); print(dim([4,0])); print(dim([1,2]));
+print("---");
+setdefault F4;
+print("F4 dims:"); print(dim([0,0,0,0])); print(dim([1,0,0,0])); print(dim([0,0,0,1]));
+print(dim([0,1,0,0])); print(dim([0,0,1,0])); print(dim([1,0,0,1])); print(dim([2,0,0,0]));
+print(dim([0,0,0,2])); print(dim([1,0,1,0])); print(dim([0,2,0,0]));

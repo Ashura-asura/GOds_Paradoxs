@@ -1,0 +1,9 @@
+setdefault D5;
+m = fundam(id(5)-3);
+print("m:"); print(m);
+r = res_mat(m);
+h = Cartan_type(m);
+print("h:"); print(h);
+print("126 -> Pati-Salam:"); print(branch([0,0,0,2,0], h, r));
+print("16 -> Pati-Salam:"); print(branch([0,0,0,1,0], h, r));
+print("10 -> Pati-Salam:"); print(branch([1,0,0,0,0], h, r));

@@ -1,0 +1,35 @@
+{
+  "N": 10,
+  "M": 15,
+  "growth_curve": [
+    {
+      "n_chains": 10,
+      "distinct_attractors": 10
+    },
+    {
+      "n_chains": 25,
+      "distinct_attractors": 23
+    },
+    {
+      "n_chains": 50,
+      "distinct_attractors": 45
+    },
+    {
+      "n_chains": 100,
+      "distinct_attractors": 79
+    },
+    {
+      "n_chains": 150,
+      "distinct_attractors": 111
+    },
+    {
+      "n_chains": 200,
+      "distinct_attractors": 130
+    }
+  ],
+  "growth_rate_early_distinct_per_chain": 0.9,
+  "growth_rate_late_distinct_per_chain": 0.38,
+  "H_A_unique_attractor": false,
+  "saturating": true,
+  "verdict": "H_B SUPPORTED (finite attractor family, growth curve flattening)"
+}

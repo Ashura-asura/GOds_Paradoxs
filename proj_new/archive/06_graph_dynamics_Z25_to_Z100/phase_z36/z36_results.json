@@ -1,0 +1,2335 @@
+[
+  {
+    "name": "Z25b_attractor_0",
+    "N": 10,
+    "M": 15,
+    "Aut_exact": 2,
+    "Aut_capped": false,
+    "Aut_time_s": 0.0007860660552978516,
+    "Theta": 1,
+    "twin_aut": 2,
+    "num_twin_classes": 9,
+    "twin_class_sizes": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 9,
+    "quotient_M": 12,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "2": 4,
+      "5": 1,
+      "3": 3,
+      "4": 2
+    },
+    "spectrum": {
+      "eigenvalues": [
+        3.370715091386909,
+        1.4142135623730943,
+        1.2401891401388576,
+        0.732050807568877,
+        0.4369270139554946,
+        -6.381552243454987e-17,
+        -1.1601383533928757,
+        -1.414213562373095,
+        -1.8876928920883824,
+        -2.7320508075688794
+      ],
+      "spectral_radius": 3.370715091386909,
+      "num_distinct": 10
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "0": 10,
+        "1": 4,
+        "2": 1
+      },
+      "mu_dist": {
+        "0": 8,
+        "1": 17,
+        "3": 2,
+        "2": 3
+      }
+    }
+  },
+  {
+    "name": "Z25b_attractor_1",
+    "N": 10,
+    "M": 15,
+    "Aut_exact": 2,
+    "Aut_capped": false,
+    "Aut_time_s": 0.0008358955383300781,
+    "Theta": 1,
+    "twin_aut": 2,
+    "num_twin_classes": 9,
+    "twin_class_sizes": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 9,
+    "quotient_M": 13,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "5": 1,
+      "2": 4,
+      "3": 3,
+      "4": 2
+    },
+    "spectrum": {
+      "eigenvalues": [
+        3.203100537257204,
+        1.8477590650225735,
+        1.0978004339308292,
+        0.7653668647301791,
+        2.3263515869384985e-17,
+        2.3263515869384985e-17,
+        -0.7653668647301791,
+        -1.3485444519775989,
+        -1.8477590650225737,
+        -2.9523565192104355
+      ],
+      "spectral_radius": 3.203100537257204,
+      "num_distinct": 9
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "0": 12,
+        "1": 3
+      },
+      "mu_dist": {
+        "0": 7,
+        "2": 7,
+        "3": 1,
+        "1": 15
+      }
+    }
+  },
+  {
+    "name": "Z25b_attractor_2",
+    "N": 10,
+    "M": 15,
+    "Aut_exact": 8,
+    "Aut_capped": false,
+    "Aut_time_s": 0.003187417984008789,
+    "Theta": 1,
+    "twin_aut": 2,
+    "num_twin_classes": 9,
+    "twin_class_sizes": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 9,
+    "quotient_M": 12,
+    "quotient_aut_colored": 4,
+    "quotient_aut_uncolored": 4,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "3": 10
+    },
+    "spectrum": {
+      "eigenvalues": [
+        3.000000000000003,
+        2.414213562373097,
+        1.7320508075688794,
+        7.797698581077355e-17,
+        7.797698581077355e-17,
+        -0.41421356237309515,
+        -0.9999999999999997,
+        -1.7320508075688774,
+        -2.0000000000000004,
+        -2.000000000000001
+      ],
+      "spectral_radius": 3.000000000000003,
+      "num_distinct": 8
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "1": 10,
+        "0": 4,
+        "2": 1
+      },
+      "mu_dist": {
+        "1": 12,
+        "0": 15,
+        "2": 3
+      }
+    }
+  },
+  {
+    "name": "Z25b_attractor_3",
+    "N": 10,
+    "M": 15,
+    "Aut_exact": 32,
+    "Aut_capped": false,
+    "Aut_time_s": 0.0055544376373291016,
+    "Theta": 4,
+    "twin_aut": 16,
+    "num_twin_classes": 6,
+    "twin_class_sizes": [
+      2,
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "quotient_N": 6,
+    "quotient_M": 5,
+    "quotient_aut_colored": 2,
+    "quotient_aut_uncolored": 2,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "3": 10
+    },
+    "spectrum": {
+      "eigenvalues": [
+        3.000000000000002,
+        2.7784571182583893,
+        1.0,
+        -2.139833338720531e-17,
+        -6.003031597316131e-17,
+        -0.28916854644831014,
+        -0.9999999999999999,
+        -0.9999999999999999,
+        -1.9999999999999996,
+        -2.4892885718100795
+      ],
+      "spectral_radius": 3.000000000000002,
+      "num_distinct": 8
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "1": 8,
+        "2": 2,
+        "0": 5
+      },
+      "mu_dist": {
+        "0": 20,
+        "2": 4,
+        "1": 4,
+        "3": 2
+      }
+    }
+  },
+  {
+    "name": "Z25b_attractor_4",
+    "N": 10,
+    "M": 15,
+    "Aut_exact": 4,
+    "Aut_capped": false,
+    "Aut_time_s": 0.0012171268463134766,
+    "Theta": 1,
+    "twin_aut": 2,
+    "num_twin_classes": 9,
+    "twin_class_sizes": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 9,
+    "quotient_M": 12,
+    "quotient_aut_colored": 2,
+    "quotient_aut_uncolored": 2,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "3": 8,
+      "4": 1,
+      "2": 1
+    },
+    "spectrum": {
+      "eigenvalues": [
+        3.071196252257087,
+        2.44711212421382,
+        1.0000000000000009,
+        0.6180339887498949,
+        0.2231603918599282,
+        -0.5948502474617696,
+        -0.9999999999999994,
+        -1.5354775602530835,
+        -1.6180339887498953,
+        -2.6111409606159866
+      ],
+      "spectral_radius": 3.071196252257087,
+      "num_distinct": 10
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "2": 1,
+        "1": 7,
+        "0": 7
+      },
+      "mu_dist": {
+        "0": 15,
+        "1": 8,
+        "2": 7
+      }
+    }
+  },
+  {
+    "name": "Z25b_attractor_5",
+    "N": 10,
+    "M": 15,
+    "Aut_exact": 8,
+    "Aut_capped": false,
+    "Aut_time_s": 0.0021452903747558594,
+    "Theta": 1,
+    "twin_aut": 2,
+    "num_twin_classes": 9,
+    "twin_class_sizes": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 9,
+    "quotient_M": 12,
+    "quotient_aut_colored": 4,
+    "quotient_aut_uncolored": 4,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "3": 10
+    },
+    "spectrum": {
+      "eigenvalues": [
+        2.999999999999998,
+        2.414213562373096,
+        1.7320508075688748,
+        -1.334791072539539e-16,
+        -1.334791072539539e-16,
+        -0.41421356237309515,
+        -1.0000000000000007,
+        -1.7320508075688772,
+        -2.0000000000000004,
+        -2.0000000000000004
+      ],
+      "spectral_radius": 2.999999999999998,
+      "num_distinct": 8
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "1": 10,
+        "0": 4,
+        "2": 1
+      },
+      "mu_dist": {
+        "0": 15,
+        "1": 12,
+        "2": 3
+      }
+    }
+  },
+  {
+    "name": "Z25b_attractor_6",
+    "N": 10,
+    "M": 15,
+    "Aut_exact": 4,
+    "Aut_capped": false,
+    "Aut_time_s": 0.001644134521484375,
+    "Theta": 1,
+    "twin_aut": 2,
+    "num_twin_classes": 9,
+    "twin_class_sizes": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 9,
+    "quotient_M": 12,
+    "quotient_aut_colored": 2,
+    "quotient_aut_uncolored": 2,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "3": 10
+    },
+    "spectrum": {
+      "eigenvalues": [
+        2.9999999999999933,
+        2.077651269947546,
+        1.309413916018541,
+        0.8019377358048367,
+        -1.0890099897104877e-17,
+        -0.42601908148695394,
+        -0.554958132087371,
+        -1.2940957005385,
+        -2.2469796037174685,
+        -2.6669504039406386
+      ],
+      "spectral_radius": 2.9999999999999933,
+      "num_distinct": 10
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "1": 3,
+        "0": 12
+      },
+      "mu_dist": {
+        "1": 14,
+        "0": 10,
+        "2": 5,
+        "3": 1
+      }
+    }
+  },
+  {
+    "name": "Z25b_attractor_7",
+    "N": 10,
+    "M": 15,
+    "Aut_exact": 4,
+    "Aut_capped": false,
+    "Aut_time_s": 0.0009531974792480469,
+    "Theta": 2,
+    "twin_aut": 4,
+    "num_twin_classes": 8,
+    "twin_class_sizes": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 8,
+    "quotient_M": 10,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "2": 2,
+      "4": 2,
+      "3": 6
+    },
+    "spectrum": {
+      "eigenvalues": [
+        3.1533228037770047,
+        2.247368180223273,
+        1.4290862339068622,
+        0.8792169466653109,
+        -0.45710016940103537,
+        -1.0,
+        -1.0000000000000002,
+        -1.1135690784662902,
+        -1.7702156077584226,
+        -2.368109308946707
+      ],
+      "spectral_radius": 3.1533228037770047,
+      "num_distinct": 9
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "1": 10,
+        "0": 4,
+        "2": 1
+      },
+      "mu_dist": {
+        "0": 13,
+        "1": 14,
+        "2": 3
+      }
+    }
+  },
+  {
+    "name": "Z25b_attractor_8",
+    "N": 10,
+    "M": 15,
+    "Aut_exact": 4,
+    "Aut_capped": false,
+    "Aut_time_s": 0.0012431144714355469,
+    "Theta": 1,
+    "twin_aut": 2,
+    "num_twin_classes": 9,
+    "twin_class_sizes": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 9,
+    "quotient_M": 12,
+    "quotient_aut_colored": 2,
+    "quotient_aut_uncolored": 2,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "3": 10
+    },
+    "spectrum": {
+      "eigenvalues": [
+        2.999999999999992,
+        2.07765126994755,
+        1.309413916018542,
+        0.8019377358048382,
+        5.760932397197245e-17,
+        -0.42601908148695383,
+        -0.5549581320873712,
+        -1.2940957005385,
+        -2.246979603717469,
+        -2.6669504039406364
+      ],
+      "spectral_radius": 2.999999999999992,
+      "num_distinct": 10
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "1": 3,
+        "0": 12
+      },
+      "mu_dist": {
+        "0": 10,
+        "1": 14,
+        "2": 5,
+        "3": 1
+      }
+    }
+  },
+  {
+    "name": "Z25b_attractor_9",
+    "N": 10,
+    "M": 15,
+    "Aut_exact": 2,
+    "Aut_capped": false,
+    "Aut_time_s": 0.0005540847778320312,
+    "Theta": 1,
+    "twin_aut": 2,
+    "num_twin_classes": 9,
+    "twin_class_sizes": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 9,
+    "quotient_M": 13,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "5": 1,
+      "4": 3,
+      "2": 5,
+      "3": 1
+    },
+    "spectrum": {
+      "eigenvalues": [
+        3.32629795489747,
+        1.4142135623730965,
+        1.240316424095951,
+        1.0000000000000007,
+        0.2403761417099195,
+        -9.46678777957502e-17,
+        -1.090913903994676,
+        -1.414213562373097,
+        -2.238050974444907,
+        -2.4780256422637614
+      ],
+      "spectral_radius": 3.32629795489747,
+      "num_distinct": 10
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "0": 10,
+        "1": 4,
+        "2": 1
+      },
+      "mu_dist": {
+        "2": 5,
+        "1": 20,
+        "0": 5
+      }
+    }
+  },
+  {
+    "name": "Z25b_attractor_10",
+    "N": 10,
+    "M": 15,
+    "Aut_exact": 4,
+    "Aut_capped": false,
+    "Aut_time_s": 0.0012235641479492188,
+    "Theta": 1,
+    "twin_aut": 2,
+    "num_twin_classes": 9,
+    "twin_class_sizes": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 9,
+    "quotient_M": 12,
+    "quotient_aut_colored": 2,
+    "quotient_aut_uncolored": 2,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "3": 10
+    },
+    "spectrum": {
+      "eigenvalues": [
+        2.999999999999998,
+        2.0776512699475473,
+        1.3094139160185418,
+        0.8019377358048381,
+        8.333604453025412e-18,
+        -0.4260190814869537,
+        -0.5549581320873714,
+        -1.2940957005385023,
+        -2.246979603717466,
+        -2.6669504039406347
+      ],
+      "spectral_radius": 2.999999999999998,
+      "num_distinct": 10
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "1": 3,
+        "0": 12
+      },
+      "mu_dist": {
+        "0": 10,
+        "1": 14,
+        "2": 5,
+        "3": 1
+      }
+    }
+  },
+  {
+    "name": "Z25b_attractor_11",
+    "N": 10,
+    "M": 15,
+    "Aut_exact": 4,
+    "Aut_capped": false,
+    "Aut_time_s": 0.0013854503631591797,
+    "Theta": 1,
+    "twin_aut": 2,
+    "num_twin_classes": 9,
+    "twin_class_sizes": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 9,
+    "quotient_M": 12,
+    "quotient_aut_colored": 2,
+    "quotient_aut_uncolored": 2,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "3": 10
+    },
+    "spectrum": {
+      "eigenvalues": [
+        2.9999999999999982,
+        2.438122888692736,
+        1.2469796037174663,
+        0.7254879396911447,
+        -0.14850327025166432,
+        -0.44504186791262845,
+        -0.9999999999999997,
+        -1.534993488714405,
+        -1.8019377358048374,
+        -2.48011406941782
+      ],
+      "spectral_radius": 2.9999999999999982,
+      "num_distinct": 10
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "1": 7,
+        "0": 7,
+        "2": 1
+      },
+      "mu_dist": {
+        "0": 14,
+        "1": 11,
+        "2": 5
+      }
+    }
+  },
+  {
+    "name": "Z25b_attractor_12",
+    "N": 10,
+    "M": 15,
+    "Aut_exact": 2,
+    "Aut_capped": false,
+    "Aut_time_s": 0.0005054473876953125,
+    "Theta": 1,
+    "twin_aut": 2,
+    "num_twin_classes": 9,
+    "twin_class_sizes": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 9,
+    "quotient_M": 14,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "6": 1,
+      "1": 3,
+      "3": 1,
+      "2": 2,
+      "5": 2,
+      "4": 1
+    },
+    "spectrum": {
+      "eigenvalues": [
+        3.886599922667957,
+        1.2526453944976632,
+        0.8706492866845225,
+        0.4806486114174248,
+        1.45644897513996e-16,
+        -5.931447355130841e-17,
+        -0.6468688315954837,
+        -1.3666816345033959,
+        -2.1198008075518096,
+        -2.3571919416168776
+      ],
+      "spectral_radius": 3.886599922667957,
+      "num_distinct": 9
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "0": 5,
+        "1": 4,
+        "3": 2,
+        "2": 4
+      },
+      "mu_dist": {
+        "1": 15,
+        "3": 1,
+        "0": 9,
+        "2": 5
+      }
+    }
+  },
+  {
+    "name": "Z25b_attractor_13",
+    "N": 10,
+    "M": 15,
+    "Aut_exact": 288,
+    "Aut_capped": false,
+    "Aut_time_s": 0.04718160629272461,
+    "Theta": 6,
+    "twin_aut": 24,
+    "num_twin_classes": 7,
+    "twin_class_sizes": [
+      4,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 7,
+    "quotient_M": 9,
+    "quotient_aut_colored": 12,
+    "quotient_aut_uncolored": 12,
+    "component_info": {
+      "num_components": 2,
+      "component_sym_factor": 288,
+      "is_connected": false,
+      "groups": [
+        {
+          "group_size": 1,
+          "representative_nodes": 4,
+          "aut_rep": 24
+        },
+        {
+          "group_size": 1,
+          "representative_nodes": 6,
+          "aut_rep": 12
+        }
+      ]
+    },
+    "degree_dist": {
+      "3": 10
+    },
+    "spectrum": {
+      "eigenvalues": [
+        3.0000000000000004,
+        3.0,
+        0.9999999999999999,
+        2.220446049250313e-16,
+        -5.4452841963044946e-17,
+        -0.9999999999999997,
+        -0.9999999999999999,
+        -1.0,
+        -1.9999999999999991,
+        -1.9999999999999991
+      ],
+      "spectral_radius": 3.0000000000000004,
+      "num_distinct": 5
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "2": 6,
+        "1": 6,
+        "0": 3
+      },
+      "mu_dist": {
+        "0": 24,
+        "2": 6
+      }
+    }
+  },
+  {
+    "name": "Shrikhande_16_48",
+    "N": 16,
+    "M": 48,
+    "Aut_exact": 192,
+    "Aut_capped": false,
+    "Aut_time_s": 0.13551878929138184,
+    "Theta": 0,
+    "twin_aut": 1,
+    "num_twin_classes": 16,
+    "twin_class_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 16,
+    "quotient_M": 48,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "6": 16
+    },
+    "spectrum": {
+      "eigenvalues": [
+        6.000000000000002,
+        2.000000000000001,
+        1.9999999999999998,
+        1.9999999999999998,
+        1.9999999999999996,
+        1.9999999999999991,
+        1.9999999999999991,
+        -1.999999999999998,
+        -1.999999999999999,
+        -1.9999999999999996,
+        -1.9999999999999996,
+        -1.9999999999999998,
+        -2.0,
+        -2.000000000000001,
+        -2.000000000000001,
+        -2.000000000000001
+      ],
+      "spectral_radius": 6.000000000000002,
+      "num_distinct": 3
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "2": 48
+      },
+      "mu_dist": {
+        "2": 72
+      }
+    }
+  },
+  {
+    "name": "Rook_16_48",
+    "N": 16,
+    "M": 48,
+    "Aut_exact": 1152,
+    "Aut_capped": false,
+    "Aut_time_s": 0.6294143199920654,
+    "Theta": 0,
+    "twin_aut": 1,
+    "num_twin_classes": 16,
+    "twin_class_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 16,
+    "quotient_M": 48,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "6": 16
+    },
+    "spectrum": {
+      "eigenvalues": [
+        6.000000000000001,
+        2.0,
+        2.0,
+        1.9999999999999996,
+        1.9999999999999993,
+        1.9999999999999991,
+        1.9999999999999982,
+        -1.9999999999999982,
+        -1.9999999999999996,
+        -1.9999999999999998,
+        -2.0,
+        -2.0,
+        -2.0000000000000004,
+        -2.0000000000000004,
+        -2.000000000000001,
+        -2.0000000000000013
+      ],
+      "spectral_radius": 6.000000000000001,
+      "num_distinct": 3
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "2": 48
+      },
+      "mu_dist": {
+        "2": 72
+      }
+    }
+  },
+  {
+    "name": "RandomRegular_N16_d3_seed0",
+    "N": 16,
+    "M": 24,
+    "Aut_exact": 1,
+    "Aut_capped": false,
+    "Aut_time_s": 0.006811857223510742,
+    "Theta": 0,
+    "twin_aut": 1,
+    "num_twin_classes": 16,
+    "twin_class_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 16,
+    "quotient_M": 24,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "3": 16
+    },
+    "spectrum": {
+      "eigenvalues": [
+        2.999999999999995,
+        2.3510359142965083,
+        2.1427224886091945,
+        1.596455454912108,
+        1.2222476946867624,
+        0.8999353100808761,
+        0.4886091093102874,
+        0.41890895790323496,
+        -0.2673259668377623,
+        -0.4620857339138505,
+        -1.0460869037190024,
+        -1.503537684879289,
+        -1.6911288091909327,
+        -2.1939678800903097,
+        -2.374220775316813,
+        -2.581561175851015
+      ],
+      "spectral_radius": 2.999999999999995,
+      "num_distinct": 16
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "0": 21,
+        "1": 3
+      },
+      "mu_dist": {
+        "1": 37,
+        "0": 55,
+        "2": 4
+      }
+    }
+  },
+  {
+    "name": "RandomRegular_N16_d3_seed1",
+    "N": 16,
+    "M": 24,
+    "Aut_exact": 4,
+    "Aut_capped": false,
+    "Aut_time_s": 0.0030858516693115234,
+    "Theta": 2,
+    "twin_aut": 4,
+    "num_twin_classes": 14,
+    "twin_class_sizes": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 14,
+    "quotient_M": 19,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "3": 16
+    },
+    "spectrum": {
+      "eigenvalues": [
+        2.999999999999994,
+        2.858704627293345,
+        2.2168196555611916,
+        1.600385945972222,
+        1.1439400686817158,
+        0.7250478579251535,
+        0.15287405438465151,
+        5.40728087889493e-17,
+        -0.16115138058529055,
+        -0.7335732357878285,
+        -1.0000000000000004,
+        -1.4319495002679816,
+        -1.6710497373115543,
+        -1.9510381536588115,
+        -2.3268886331413223,
+        -2.4221215690654767
+      ],
+      "spectral_radius": 2.999999999999994,
+      "num_distinct": 16
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "2": 1,
+        "1": 10,
+        "0": 13
+      },
+      "mu_dist": {
+        "0": 66,
+        "2": 4,
+        "1": 25,
+        "3": 1
+      }
+    }
+  },
+  {
+    "name": "RandomRegular_N16_d3_seed2",
+    "N": 16,
+    "M": 24,
+    "Aut_exact": 2,
+    "Aut_capped": false,
+    "Aut_time_s": 0.007591724395751953,
+    "Theta": 1,
+    "twin_aut": 2,
+    "num_twin_classes": 15,
+    "twin_class_sizes": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 15,
+    "quotient_M": 21,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "3": 16
+    },
+    "spectrum": {
+      "eigenvalues": [
+        3.0000000000000075,
+        2.6228599645725166,
+        1.874041339495971,
+        1.5953310988226252,
+        1.4635378855977774,
+        1.0678536295503251,
+        0.4722813009066951,
+        -0.09270489191509032,
+        -0.4476598849148504,
+        -0.636738165284762,
+        -0.9999999999999997,
+        -1.3455489680907422,
+        -1.588888149722779,
+        -1.9865798881565544,
+        -2.204559399166649,
+        -2.7932258716944816
+      ],
+      "spectral_radius": 3.0000000000000075,
+      "num_distinct": 16
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "0": 19,
+        "1": 4,
+        "2": 1
+      },
+      "mu_dist": {
+        "0": 59,
+        "1": 32,
+        "2": 5
+      }
+    }
+  },
+  {
+    "name": "RandomRegular_N16_d3_seed3",
+    "N": 16,
+    "M": 24,
+    "Aut_exact": 4,
+    "Aut_capped": false,
+    "Aut_time_s": 0.003762960433959961,
+    "Theta": 1,
+    "twin_aut": 2,
+    "num_twin_classes": 15,
+    "twin_class_sizes": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 15,
+    "quotient_M": 21,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "3": 16
+    },
+    "spectrum": {
+      "eigenvalues": [
+        3.0000000000000053,
+        2.6263908240935585,
+        2.0959118401406487,
+        1.7661098529038173,
+        0.8943059167785796,
+        0.8561222200334624,
+        0.557630849803568,
+        -2.2602152258104284e-17,
+        -0.2609679527329663,
+        -0.6360130622652016,
+        -1.0000000000000004,
+        -1.0000000000000007,
+        -1.6538409126991445,
+        -2.3338140315987133,
+        -2.3358313499114653,
+        -2.57600419454613
+      ],
+      "spectral_radius": 3.0000000000000053,
+      "num_distinct": 15
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "1": 4,
+        "2": 1,
+        "0": 19
+      },
+      "mu_dist": {
+        "0": 61,
+        "1": 28,
+        "2": 7
+      }
+    }
+  },
+  {
+    "name": "RandomRegular_N16_d3_seed4",
+    "N": 16,
+    "M": 24,
+    "Aut_exact": 2,
+    "Aut_capped": false,
+    "Aut_time_s": 0.0073626041412353516,
+    "Theta": 1,
+    "twin_aut": 2,
+    "num_twin_classes": 15,
+    "twin_class_sizes": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 15,
+    "quotient_M": 21,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "3": 16
+    },
+    "spectrum": {
+      "eigenvalues": [
+        3.000000000000009,
+        2.5618729870877246,
+        2.283593462581107,
+        1.5368464826742092,
+        1.1496559219522289,
+        0.8075780491310404,
+        0.34709262853901157,
+        1.1451831848492944e-16,
+        -0.2564430954037879,
+        -0.49711410548882135,
+        -0.6617182395197895,
+        -1.4750225380982593,
+        -1.7227672877215916,
+        -2.04531195623508,
+        -2.3618827010840406,
+        -2.666379608413953
+      ],
+      "spectral_radius": 3.000000000000009,
+      "num_distinct": 16
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "0": 18,
+        "1": 6
+      },
+      "mu_dist": {
+        "0": 61,
+        "1": 29,
+        "2": 5,
+        "3": 1
+      }
+    }
+  },
+  {
+    "name": "RandomRegular_N16_d4_seed0",
+    "N": 16,
+    "M": 32,
+    "Aut_exact": 1,
+    "Aut_capped": false,
+    "Aut_time_s": 0.015236377716064453,
+    "Theta": 0,
+    "twin_aut": 1,
+    "num_twin_classes": 16,
+    "twin_class_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 16,
+    "quotient_M": 32,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "4": 16
+    },
+    "spectrum": {
+      "eigenvalues": [
+        3.9999999999999982,
+        2.485527193021041,
+        2.159170785714421,
+        1.5835576232415474,
+        1.4446567291635652,
+        1.1087998216927206,
+        0.47891879049674047,
+        3.074972666143769e-16,
+        4.615430671578357e-17,
+        -0.328722226336546,
+        -0.9999999999999991,
+        -1.5744147964693822,
+        -2.141785825198562,
+        -2.2335662615155156,
+        -2.8318029850913895,
+        -3.1503388487186466
+      ],
+      "spectral_radius": 3.9999999999999982,
+      "num_distinct": 15
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "0": 23,
+        "1": 9
+      },
+      "mu_dist": {
+        "2": 24,
+        "0": 25,
+        "1": 39
+      }
+    }
+  },
+  {
+    "name": "RandomRegular_N16_d4_seed1",
+    "N": 16,
+    "M": 32,
+    "Aut_exact": 1,
+    "Aut_capped": false,
+    "Aut_time_s": 0.0037772655487060547,
+    "Theta": 0,
+    "twin_aut": 1,
+    "num_twin_classes": 16,
+    "twin_class_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 16,
+    "quotient_M": 32,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "4": 16
+    },
+    "spectrum": {
+      "eigenvalues": [
+        4.0,
+        2.7340403088326553,
+        2.4367964289520536,
+        2.0220041022706483,
+        1.3174251704204432,
+        0.739649364104542,
+        0.435017398997267,
+        0.17584896323979043,
+        -0.6445645604026332,
+        -0.9123602638220175,
+        -1.2516068634728,
+        -1.6095391886881105,
+        -2.0496837148295666,
+        -2.2492119273418165,
+        -2.3470555263475625,
+        -2.7967596919128956
+      ],
+      "spectral_radius": 4.0,
+      "num_distinct": 16
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "1": 16,
+        "0": 12,
+        "2": 4
+      },
+      "mu_dist": {
+        "0": 28,
+        "1": 48,
+        "2": 12
+      }
+    }
+  },
+  {
+    "name": "RandomRegular_N16_d4_seed2",
+    "N": 16,
+    "M": 32,
+    "Aut_exact": 2,
+    "Aut_capped": false,
+    "Aut_time_s": 0.0054209232330322266,
+    "Theta": 1,
+    "twin_aut": 2,
+    "num_twin_classes": 15,
+    "twin_class_sizes": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 15,
+    "quotient_M": 28,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "4": 16
+    },
+    "spectrum": {
+      "eigenvalues": [
+        3.99999999999999,
+        2.917915280199116,
+        2.0711051863911067,
+        1.8308842907719596,
+        1.4103968958380162,
+        0.8199780988796376,
+        0.666219479882425,
+        0.08154352212236973,
+        -0.38179657924672855,
+        -0.9999999999999996,
+        -1.0727571590418459,
+        -1.8749237663193257,
+        -1.8852696867075116,
+        -2.19425098530607,
+        -2.571478345979877,
+        -2.8175662314832564
+      ],
+      "spectral_radius": 3.99999999999999,
+      "num_distinct": 16
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "0": 14,
+        "1": 16,
+        "3": 1,
+        "2": 1
+      },
+      "mu_dist": {
+        "1": 50,
+        "0": 26,
+        "2": 11,
+        "3": 1
+      }
+    }
+  },
+  {
+    "name": "RandomRegular_N16_d4_seed3",
+    "N": 16,
+    "M": 32,
+    "Aut_exact": 1,
+    "Aut_capped": false,
+    "Aut_time_s": 0.0033919811248779297,
+    "Theta": 0,
+    "twin_aut": 1,
+    "num_twin_classes": 16,
+    "twin_class_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 16,
+    "quotient_M": 32,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "4": 16
+    },
+    "spectrum": {
+      "eigenvalues": [
+        4.000000000000005,
+        2.773330323237052,
+        2.2908633135238405,
+        1.9757355550597047,
+        1.1552226092897744,
+        0.7319386196097133,
+        0.3774775912402503,
+        0.09591272444502677,
+        -0.2789333250612579,
+        -0.663207509437314,
+        -1.1000241127858823,
+        -1.4829273318673821,
+        -1.774656840327211,
+        -2.389348800124781,
+        -2.7143137923707665,
+        -2.9970690244307736
+      ],
+      "spectral_radius": 4.000000000000005,
+      "num_distinct": 16
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "1": 14,
+        "0": 16,
+        "2": 2
+      },
+      "mu_dist": {
+        "1": 43,
+        "0": 29,
+        "2": 13,
+        "3": 3
+      }
+    }
+  },
+  {
+    "name": "RandomRegular_N16_d4_seed4",
+    "N": 16,
+    "M": 32,
+    "Aut_exact": 2,
+    "Aut_capped": false,
+    "Aut_time_s": 0.0048487186431884766,
+    "Theta": 0,
+    "twin_aut": 1,
+    "num_twin_classes": 16,
+    "twin_class_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 16,
+    "quotient_M": 32,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "4": 16
+    },
+    "spectrum": {
+      "eigenvalues": [
+        3.9999999999999996,
+        3.146477171520538,
+        1.8324845703579389,
+        1.7287307737327116,
+        1.06997435126797,
+        0.6180339887498953,
+        0.44166551682020133,
+        0.2718439104088768,
+        -0.2856661978688462,
+        -0.36232936908395624,
+        -1.008986653428861,
+        -1.3414868294454156,
+        -1.6180339887498958,
+        -2.4264764316375413,
+        -2.929519485554132,
+        -3.136711327089479
+      ],
+      "spectral_radius": 3.9999999999999996,
+      "num_distinct": 16
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "1": 11,
+        "0": 19,
+        "2": 2
+      },
+      "mu_dist": {
+        "0": 34,
+        "2": 13,
+        "3": 7,
+        "1": 34
+      }
+    }
+  },
+  {
+    "name": "RandomRegular_N16_d6_seed0",
+    "N": 16,
+    "M": 48,
+    "Aut_exact": 1,
+    "Aut_capped": false,
+    "Aut_time_s": 0.008528470993041992,
+    "Theta": 0,
+    "twin_aut": 1,
+    "num_twin_classes": 16,
+    "twin_class_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 16,
+    "quotient_M": 48,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "6": 16
+    },
+    "spectrum": {
+      "eigenvalues": [
+        6.000000000000009,
+        2.8918577718484615,
+        2.5672445469604206,
+        1.8904624048599565,
+        1.2656072603172497,
+        0.8476480117586284,
+        0.5429424652365323,
+        0.12891618629239468,
+        -0.805421850867111,
+        -0.9569845465414174,
+        -1.3750571675986583,
+        -1.9016801305068007,
+        -2.1725788572122786,
+        -2.5023695889803617,
+        -2.9142528290530008,
+        -3.5063336765140125
+      ],
+      "spectral_radius": 6.000000000000009,
+      "num_distinct": 16
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "1": 20,
+        "2": 23,
+        "3": 5
+      },
+      "mu_dist": {
+        "2": 28,
+        "3": 16,
+        "4": 9,
+        "1": 19
+      }
+    }
+  },
+  {
+    "name": "RandomRegular_N16_d6_seed1",
+    "N": 16,
+    "M": 48,
+    "Aut_exact": 1,
+    "Aut_capped": false,
+    "Aut_time_s": 0.010457038879394531,
+    "Theta": 0,
+    "twin_aut": 1,
+    "num_twin_classes": 16,
+    "twin_class_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 16,
+    "quotient_M": 48,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "6": 16
+    },
+    "spectrum": {
+      "eigenvalues": [
+        6.000000000000014,
+        2.7089006902624515,
+        2.463572322868049,
+        2.14861141465336,
+        1.6953776591932328,
+        1.0425507433934313,
+        0.1922059100628668,
+        -0.2761881453520555,
+        -0.6612161290202828,
+        -1.0304647232355268,
+        -1.3142804655335085,
+        -1.8273647724819302,
+        -2.4513808069943384,
+        -2.6281575257031276,
+        -2.881703825591998,
+        -3.1804623465206276
+      ],
+      "spectral_radius": 6.000000000000014,
+      "num_distinct": 16
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "2": 19,
+        "1": 19,
+        "3": 9,
+        "0": 1
+      },
+      "mu_dist": {
+        "2": 37,
+        "3": 19,
+        "1": 13,
+        "4": 3
+      }
+    }
+  },
+  {
+    "name": "RandomRegular_N16_d6_seed2",
+    "N": 16,
+    "M": 48,
+    "Aut_exact": 1,
+    "Aut_capped": false,
+    "Aut_time_s": 0.003520965576171875,
+    "Theta": 0,
+    "twin_aut": 1,
+    "num_twin_classes": 16,
+    "twin_class_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 16,
+    "quotient_M": 48,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "6": 16
+    },
+    "spectrum": {
+      "eigenvalues": [
+        6.000000000000011,
+        2.6748860202666918,
+        2.293524559098924,
+        1.693161233439013,
+        1.4643172834965725,
+        1.0660009036941458,
+        0.4142135623730948,
+        0.2235503656756403,
+        -0.493832767169135,
+        -0.6869834287824909,
+        -1.238231500932691,
+        -1.921816331251421,
+        -2.000000000000001,
+        -2.414213562373094,
+        -3.078948970450095,
+        -3.995627367085168
+      ],
+      "spectral_radius": 6.000000000000011,
+      "num_distinct": 16
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "0": 5,
+        "3": 4,
+        "1": 24,
+        "2": 15
+      },
+      "mu_dist": {
+        "3": 25,
+        "2": 26,
+        "4": 8,
+        "1": 10,
+        "5": 1,
+        "0": 2
+      }
+    }
+  },
+  {
+    "name": "RandomRegular_N16_d6_seed3",
+    "N": 16,
+    "M": 48,
+    "Aut_exact": 1,
+    "Aut_capped": false,
+    "Aut_time_s": 0.00864100456237793,
+    "Theta": 0,
+    "twin_aut": 1,
+    "num_twin_classes": 16,
+    "twin_class_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 16,
+    "quotient_M": 48,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "6": 16
+    },
+    "spectrum": {
+      "eigenvalues": [
+        6.0,
+        2.5945459989297173,
+        2.015499645506383,
+        1.7592254465729884,
+        1.7272336147215872,
+        1.1020023496078928,
+        0.8423487103765058,
+        0.19530085323374946,
+        -0.48926620049632885,
+        -0.6919421308489976,
+        -1.75672065153207,
+        -1.8779726736414493,
+        -2.131222075233639,
+        -2.604628982484731,
+        -3.0524282767575537,
+        -3.6319756279540556
+      ],
+      "spectral_radius": 6.0,
+      "num_distinct": 16
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "2": 22,
+        "1": 19,
+        "0": 5,
+        "3": 2
+      },
+      "mu_dist": {
+        "3": 26,
+        "2": 32,
+        "1": 9,
+        "4": 5
+      }
+    }
+  },
+  {
+    "name": "RandomRegular_N16_d6_seed4",
+    "N": 16,
+    "M": 48,
+    "Aut_exact": 1,
+    "Aut_capped": false,
+    "Aut_time_s": 0.005270957946777344,
+    "Theta": 0,
+    "twin_aut": 1,
+    "num_twin_classes": 16,
+    "twin_class_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 16,
+    "quotient_M": 48,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "6": 16
+    },
+    "spectrum": {
+      "eigenvalues": [
+        6.000000000000007,
+        2.8747746722209477,
+        2.5890072920865674,
+        1.465799540014618,
+        1.2580793469636762,
+        0.9444483331141909,
+        0.5764243752283877,
+        0.4457022081102466,
+        -0.467981905104499,
+        -0.7675138811951275,
+        -1.5849296306249536,
+        -2.055576653786195,
+        -2.32016213188045,
+        -2.65596889166639,
+        -3.0142528391138703,
+        -3.287849834367129
+      ],
+      "spectral_radius": 6.000000000000007,
+      "num_distinct": 16
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "1": 16,
+        "0": 5,
+        "3": 8,
+        "2": 19
+      },
+      "mu_dist": {
+        "3": 26,
+        "2": 35,
+        "0": 1,
+        "1": 9,
+        "5": 1
+      }
+    }
+  },
+  {
+    "name": "Petersen_10_15",
+    "N": 10,
+    "M": 15,
+    "Aut_exact": 120,
+    "Aut_capped": false,
+    "Aut_time_s": 0.028166770935058594,
+    "Theta": 0,
+    "twin_aut": 1,
+    "num_twin_classes": 10,
+    "twin_class_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 10,
+    "quotient_M": 15,
+    "quotient_aut_colored": 120,
+    "quotient_aut_uncolored": 120,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "3": 10
+    },
+    "spectrum": {
+      "eigenvalues": [
+        3.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9999999999999999,
+        0.9999999999999998,
+        -1.9999999999999996,
+        -2.0,
+        -2.0,
+        -2.000000000000001
+      ],
+      "spectral_radius": 3.0,
+      "num_distinct": 3
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "0": 15
+      },
+      "mu_dist": {
+        "1": 30
+      }
+    }
+  },
+  {
+    "name": "Complement_Shrikhande_16_80",
+    "N": 16,
+    "M": 72,
+    "Aut_exact": 192,
+    "Aut_capped": false,
+    "Aut_time_s": 0.1836864948272705,
+    "Theta": 0,
+    "twin_aut": 1,
+    "num_twin_classes": 16,
+    "twin_class_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quotient_N": 16,
+    "quotient_M": 72,
+    "quotient_aut_colored": 1,
+    "quotient_aut_uncolored": 1,
+    "component_info": {
+      "num_components": 1,
+      "component_sym_factor": 1,
+      "is_connected": true,
+      "components": []
+    },
+    "degree_dist": {
+      "9": 16
+    },
+    "spectrum": {
+      "eigenvalues": [
+        9.0,
+        1.0000000000000007,
+        1.0000000000000004,
+        1.0000000000000002,
+        1.0000000000000002,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9999999999999997,
+        -2.999999999999999,
+        -3.0,
+        -3.0,
+        -3.0,
+        -3.0000000000000004,
+        -3.000000000000001
+      ],
+      "spectral_radius": 9.0,
+      "num_distinct": 3
+    },
+    "common_neighbors": {
+      "lambda_dist": {
+        "4": 72
+      },
+      "mu_dist": {
+        "6": 48
+      }
+    }
+  }
+]

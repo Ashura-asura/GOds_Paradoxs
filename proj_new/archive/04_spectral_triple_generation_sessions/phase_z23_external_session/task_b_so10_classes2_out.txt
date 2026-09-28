@@ -1,0 +1,50 @@
+E8 base verified: 240 roots from simples; Cartan matrix:
+    [2, 0, -1, 0, 0, 0, 0, 0]
+    [0, 2, 0, -1, 0, 0, 0, 0]
+    [-1, 0, 2, -1, 0, 0, 0, 0]
+    [0, -1, -1, 2, -1, 0, 0, 0]
+    [0, 0, 0, -1, 2, -1, 0, 0]
+    [0, 0, 0, 0, -1, 2, -1, 0]
+    [0, 0, 0, 0, 0, -1, 2, -1]
+    [0, 0, 0, 0, 0, 0, -1, 2]
+
+D5(1) SO(16)/E7-route: roots = 40 closed: True
+D5(2) E6-route: roots = 40 closed: True
+E7 = <a1..a7>: roots = 126  closed: True  (126 expected)
+  C(E7) in E8 (roots orthogonal to all E7 roots):
+    2 roots = A1
+  D5 in E7 via {2..6}: 40 roots, equals D5(1): True
+  D5 in E7 via {1..5}: 40 roots, equals D5(2): True
+
+=== centralizers ===
+D5(1) SO(16)/E7-route: |D5| = 40, C(D5) = 12 roots, type A3
+   C roots: [(Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(-1, 1), Fraction(-1, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(-1, 1), Fraction(0, 1), Fraction(-1, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(-1, 1), Fraction(0, 1), Fraction(1, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(-1, 1), Fraction(1, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(-1, 1), Fraction(-1, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(-1, 1), Fraction(1, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(-1, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(-1, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1), Fraction(-1, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1), Fraction(1, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(1, 1), Fraction(0, 1))]
+D5(2) E6-route: |D5| = 40, C(D5) = 12 roots, type A3
+   C roots: [(Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(-1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(-1, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(-1, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(-1, 1), Fraction(1, 1), Fraction(0, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(-1, 1), Fraction(0, 1), Fraction(-1, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(-1, 1), Fraction(1, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(-1, 1), Fraction(-1, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(1, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(-1, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1), Fraction(1, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(-1, 1), Fraction(0, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1), Fraction(-1, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1))]
+
+=== 248 branching: D5 x C(D5) ===
+
+D5(1) SO(16)/E7-route   [248 -> D5 x C] root decomposition:
+    (root  , zero  ) x 40
+    (spin  , hspin ) x 128
+    (vec   , vec   ) x 60
+    (zero  , root  ) x 12
+    total roots: 240
+D5(2) E6-route   [248 -> D5 x C] root decomposition:
+    (root  , zero  ) x 40
+    (spin  , hspin ) x 128
+    (vec   , vec   ) x 60
+    (zero  , root  ) x 12
+    total roots: 240
+
+E6 = <a1..a6>: roots = 72 (72 expected)
+E6 orbit of L1 (27): 27
+27 -> D5(2): {'spin': 16, 'vec': 10, 'zero': 1}  (expect 16 spin + 10 vec + 1 zero)
+
+=== summary ===
+D5(1) (SO(16)-route == E7-route {2..6}): 40 roots, C = A3
+D5(2) (E6-route {1..5}): 40 roots, C = A3
+D5(1) == D5(2) (conjugate-identical subalgebras)?  False
+C(D5(1)) = {+-e_i+-e_j, 6<=i<j<=8} (the SO(16)-position A3)
+C(D5(2)) = {+-(e_i+e_8), +-(e_i-e_j), i,j in {5,6,7}} (twisted A3 containing the
+           family A2 = C(E6) of the maximal E8 > E6 x SU(3))

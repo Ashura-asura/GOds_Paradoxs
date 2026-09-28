@@ -1,0 +1,82 @@
+{
+  "correct_shrikhande": {
+    "Aut_size": 192,
+    "M": 48,
+    "N": 16,
+    "degree_sequence": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "is_SRG_16_6_2_2": true,
+    "lambda": {
+      "2": 48
+    },
+    "mu": {
+      "2": 72
+    },
+    "time_ms": 137.2
+  },
+  "rook_graph_comparison": {
+    "Aut_size": 1152,
+    "M": 48,
+    "N": 16,
+    "is_isomorphic_to_shrikhande": false,
+    "note": "Same SRG parameters but different Aut, non-isomorphic",
+    "time_ms": 640
+  },
+  "user_submitted": {
+    "Aut_size": 1,
+    "M": 48,
+    "N": 16,
+    "Theta": 0,
+    "degree_sequence": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "is_SRG_16_6_2_2": false,
+    "lambda": {
+      "0": 4,
+      "1": 17,
+      "2": 20,
+      "3": 7
+    },
+    "mu": {
+      "0": 1,
+      "1": 14,
+      "2": 28,
+      "3": 21,
+      "4": 6,
+      "5": 2
+    },
+    "time_ms": 2.0,
+    "twin_classes": 16
+  }
+}

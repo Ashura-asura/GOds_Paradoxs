@@ -1,0 +1,9 @@
+setdefault E8;
+c = closure([ [0,0,0,0,0,1,0,0], [0,0,0,0,0,0,0,1], [-1,-1,-1,-2,-1,-1,0,0], [1,1,2,2,2,1,0,0], [1,1,1,2,1,1,1,0], [-1,0,-1,0,0,0,0,0], [0,-1,0,0,0,0,0,0], [0,0,-1,-1,0,0,0,0] ]);
+print("closure of E6 + A2 simple roots:"); print(Cartan_type(c));
+print("rows:"); print(n_rows(c));
+h = Cartan_type(c);
+rm = res_mat(c);
+print("restriction matrix:"); print(rm);
+adj = null(8); adj[8] = 1;
+print("248 -> E6xA2:"); print(branch(adj, h, rm));

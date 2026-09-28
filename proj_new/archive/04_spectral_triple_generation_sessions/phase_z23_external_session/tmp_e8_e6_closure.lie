@@ -1,0 +1,5 @@
+setdefault E8;
+c6 = closure([ [0,0,0,0,0,1,0,0], [0,0,0,0,0,0,0,1], [-1,-1,-1,-2,-1,-1,0,0], [1,1,2,2,2,1,0,0], [1,1,1,2,1,1,1,0], [-1,0,-1,0,0,0,0,0] ]);
+print("closure of 6 E6 roots:"); print(Cartan_type(c6));
+print("rows:"); print(n_rows(c6));
+print("positive roots of this subsystem:"); print(pos_roots(Cartan_type(c6)));

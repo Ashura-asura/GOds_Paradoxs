@@ -1,0 +1,10 @@
+setdefault E6;
+m = fundam(id(6) - 6);
+r = res_mat(m);
+h = Cartan_type(m);
+v = null(6); v[1] = 1;
+w = tensor(v, null(6));
+t = tensor(w, w);
+tt = tensor(t, w);
+b = branch(tt, h, r);
+print("27^3 -> SO(10)xU1:"); print(b);

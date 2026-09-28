@@ -1,0 +1,11 @@
+setdefault A4;
+m = fundam(id(4)-3);
+print("m:"); print(m);
+r = res_mat(m);
+print("r:"); print(r);
+h = Cartan_type(m);
+print("h:"); print(h);
+print("5 ->:"); print(branch([1,0,0,0], h, r));
+print("10 ->:"); print(branch([0,1,0,0], h, r));
+print("15 ->:"); print(branch([2,0,0,0], h, r));
+print("24 ->:"); print(branch([1,0,0,1], h, r));

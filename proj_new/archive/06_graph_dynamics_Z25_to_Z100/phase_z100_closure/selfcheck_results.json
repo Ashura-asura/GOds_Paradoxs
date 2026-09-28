@@ -1,0 +1,41 @@
+{
+  "Petersen": {
+    "n": 10,
+    "m": 15,
+    "degrees": [
+      3
+    ],
+    "aut": 120,
+    "expect_aut": 120,
+    "theta": 0,
+    "expect_theta": 0,
+    "aut_ok": true,
+    "theta_ok": true
+  },
+  "Shrikhande": {
+    "n": 16,
+    "m": 48,
+    "degrees": [
+      6
+    ],
+    "aut": 192,
+    "expect_aut": 192,
+    "theta": 0,
+    "expect_theta": 0,
+    "aut_ok": true,
+    "theta_ok": true
+  },
+  "Rook_4x4": {
+    "n": 16,
+    "m": 48,
+    "degrees": [
+      6
+    ],
+    "aut": 1152,
+    "expect_aut": 1152,
+    "theta": 0,
+    "expect_theta": 0,
+    "aut_ok": true,
+    "theta_ok": true
+  }
+}

@@ -1,0 +1,14 @@
+setdefault A4;
+m = fundam(id(4)-3);
+r = res_mat(m);
+h = Cartan_type(m);
+print("45 ->:"); print(branch([1,0,1,0], h, r));
+print("50 ->:"); print(branch([0,0,2,0], h, r));
+print("10bar ->:"); print(branch([0,0,1,0], h, r));
+print("5bar ->:"); print(branch([0,0,0,1], h, r));
+print("55 ->:"); print(branch([0,2,0,0], h, r));
+print("40 ->:"); print(branch([1,1,0,0], h, r));
+print("dims 50,45,40:");
+print(dim([0,0,2,0]));
+print(dim([1,0,1,0]));
+print(dim([1,1,0,0]));

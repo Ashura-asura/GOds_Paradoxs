@@ -1,0 +1,10 @@
+setdefault E6;
+m = fundam(id(6) - 6);
+r = res_mat(m);
+h = Cartan_type(m);
+print("351 ->"); print(branch([0,0,1,0,0,0], h, r));
+print("351bar ->"); print(branch([0,0,0,0,0,1], h, r));
+setdefault D5;
+print(dim([0,0,0,2,0]));
+print(dim([0,0,0,0,3]));
+print(dim([0,0,0,1,1]));

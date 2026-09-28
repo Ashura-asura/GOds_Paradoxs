@@ -1,0 +1,56 @@
+{
+  "E6xSU(3)_f": {
+    "status_in_repo": "real, frozen (Phase A2)",
+    "files_checked": [
+      {
+        "path": "phases below_Z_25/phase_a2_e8_core.py",
+        "octonion_ops_used": false
+      }
+    ],
+    "any_octonion_bridge_found": false
+  },
+  "SO(16)->SO(10)xSU(4)": {
+    "status_in_repo": "real but pre-Z-numbering exploratory sketch, not a frozen phase",
+    "files_checked": [
+      {
+        "path": "docs/ALL_DERIVATIVES.md",
+        "octonion_ops_used": true
+      }
+    ],
+    "any_octonion_bridge_found": true
+  },
+  "SU(5)_A x SU(5)_B": {
+    "status_in_repo": "real, frozen (Z44, closed negative)",
+    "files_checked": [
+      {
+        "path": "phase_z44_su5xsu5/phase_z44_su5xsu5/scripts/z44_branching.py",
+        "octonion_ops_used": false
+      },
+      {
+        "path": "phase_z44_su5xsu5/phase_z44_su5xsu5/scripts/z44_structure_check.py",
+        "octonion_ops_used": false
+      }
+    ],
+    "any_octonion_bridge_found": false
+  },
+  "SU(9)": {
+    "status_in_repo": "NOT FOUND in repo -- no dedicated branch computation exists; retracted from R6",
+    "files_checked": [],
+    "any_octonion_bridge_found": false
+  },
+  "E7xSU(2)": {
+    "status_in_repo": "NOT FOUND as a dedicated branch computation -- only incidental mentions; retracted from R6",
+    "files_checked": [],
+    "any_octonion_bridge_found": false
+  },
+  "F4xG2": {
+    "status_in_repo": "MISLABELED in R6 -- this file tests the E8 cubic Casimir/Schur obstruction WITHIN the already-chosen E6xSU(3)_f branch, not an F4xG2 branching. No F4xG2 branch computation exists in this repo.",
+    "files_checked": [
+      {
+        "path": "phase_z39_e8_cubic_obstruction/e8_obstruction_test.py",
+        "octonion_ops_used": false
+      }
+    ],
+    "any_octonion_bridge_found": false
+  }
+}

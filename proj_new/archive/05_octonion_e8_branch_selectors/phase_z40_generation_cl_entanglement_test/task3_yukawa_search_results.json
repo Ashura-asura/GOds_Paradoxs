@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Case A -- outer product of two (27,3) triplets, Y_ij = v_i w_j",
+    "rank": 1,
+    "eigenvalue_magnitudes": [
+      0.0,
+      0.0,
+      3.902653
+    ],
+    "n_distinct_magnitudes": 2
+  },
+  {
+    "name": "Case B1 -- one (3,3bar) pair",
+    "rank": 1,
+    "eigenvalue_magnitudes": [
+      0.0,
+      0.0,
+      0.973535
+    ],
+    "n_distinct_magnitudes": 2
+  },
+  {
+    "name": "Case B2 -- two independent (3,3bar) pairs (sum)",
+    "rank": 2,
+    "eigenvalue_magnitudes": [
+      0.0,
+      1.173352,
+      2.235088
+    ],
+    "n_distinct_magnitudes": 3
+  },
+  {
+    "name": "Case B3 -- three independent (3,3bar) pairs (sum)",
+    "rank": 3,
+    "eigenvalue_magnitudes": [
+      0.425984,
+      2.174308,
+      4.833649
+    ],
+    "n_distinct_magnitudes": 3
+  },
+  {
+    "name": "Case C -- adjoint (1,8) flavon M (traceless Hermitian)",
+    "rank": 3,
+    "eigenvalue_magnitudes": [
+      0.412527,
+      2.332816,
+      2.745343
+    ],
+    "n_distinct_magnitudes": 3
+  }
+]

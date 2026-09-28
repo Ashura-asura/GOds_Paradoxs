@@ -1,0 +1,20 @@
+{
+  "z21_reproduction": {
+    "description": "Commutant of SU(3)_f acting irreducibly on C^3 (Schur's Lemma reproduction, cross-check of this solver against Z21's known result of exactly 1).",
+    "commutant_complex_dimension": 1,
+    "matches_Z21_known_result_of_1": true
+  },
+  "z44_su5AxSu5B_after_breaking_su5A": {
+    "description": "Commutant of the 12 SM generators (from broken SU(5)_A) acting as g(x)I_10 on the (5_A, 10bar_B) piece, family block dim 10, completely untouched.",
+    "commutant_complex_dimension": 200,
+    "ambient_space_dimension": 50
+  },
+  "ratio_z44_over_z21": 200.0,
+  "z44_R1_correction": {
+    "note": "The ratio_z44_over_z21 (200.0) below compares an ungauged SU(5)_B (this file's original scope) against Z21's gauged SU(3)_f -- not a fair comparison.",
+    "fair_comparison_commutant_both_gauged": 2,
+    "fair_ratio_over_z21": 2.0,
+    "source": "z44_audit_commutant_recheck.py, independently re-run and confirmed",
+    "mathematical_reason": "Schur's Lemma applied to both factors: SM (3+1 direct sum 1+2 on 5_A, two inequivalent irreps) x SU(5)_B irreducible on 10bar gives commutant Hom(V1,V1)+Hom(V2,V2)=1+1=2. The 200 figure arises because leaving SU(5)_B ungauged replaces Hom(W,W) with the full unconstrained End(C^10) (dim 100) instead of collapsing it to C via Schur."
+  }
+}

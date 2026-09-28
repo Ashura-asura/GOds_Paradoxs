@@ -1,0 +1,13 @@
+setdefault E8;
+r = pos_roots(E8);
+hr = r[n_rows(r)];
+c = closure([ [1,0,0,0,0,0,0,0], [0,1,0,0,0,0,0,0], [0,0,1,0,0,0,0,0], [0,0,0,1,0,0,0,0], [0,0,0,0,1,0,0,0], [0,0,0,0,0,1,0,0], [0,0,0,0,0,0,1,0], -hr ]);
+h = Cartan_type(c);
+rm = res_mat(c);
+print("restriction matrix:"); print(rm);
+adj = null(8); adj[1] = 1;
+print("248 -> E7xA1:"); print(branch(adj, h, rm));
+fund8 = null(8); fund8[8] = 1;
+print("3875 -> E7xA1 (check dim):");
+b = branch(fund8, h, rm);
+print(b);

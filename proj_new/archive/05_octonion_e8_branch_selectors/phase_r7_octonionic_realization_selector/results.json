@@ -1,0 +1,44 @@
+{
+  "test": "Does any file in this repo express an E8-branch's non-SO(10) generators as an explicit function of Phase A1's octonion left-multiplication operators?",
+  "octonion_markers_searched": ["octonion", "qosc_division", "build_octonion_structure_constants"],
+  "branches": {
+    "E6xSU(3)_f": {
+      "status_in_repo": "real, frozen (Phase A2)",
+      "construction_method": "abstract E8 root system in 8-dim Cartan/SO(16)-embedding coordinates (phases below_Z_25/phase_a2_e8_core.py)",
+      "octonion_bridge_found": false,
+      "note": "Phase A1's octonion-built gammas ARE used for the SO(10)-internal SU(3)_c/SU(2)_L generators; the SU(3)_f (family) factor that distinguishes this branch has no octonion-operator realization anywhere in this repo."
+    },
+    "SO(16)->SO(10)xSU(4)": {
+      "status_in_repo": "real but pre-Z-numbering exploratory sketch (docs/ALL_DERIVATIVES.md item 10), not a frozen phase",
+      "construction_method": "abstract SO(16) adjoint+spinor decomposition (dimension counting only)",
+      "octonion_bridge_found": false,
+      "note": "docs/ALL_DERIVATIVES.md does contain the string 'octonion' but in an UNRELATED section (Malcev/qosc Casimir discussion, lines 284-286), not attached to the SO(16) item (line 163). Confirmed false positive on manual inspection."
+    },
+    "SU(5)_A x SU(5)_B": {
+      "status_in_repo": "real, frozen (Z44, closed negative)",
+      "construction_method": "Slansky Table 24 branching + literal Kronecker-product generator construction, abstract",
+      "octonion_bridge_found": false,
+      "note": "No octonion reference anywhere in z44_branching.py or z44_structure_check.py."
+    },
+    "SU(9)": {
+      "status_in_repo": "NOT FOUND in repo -- retracted from R6, no dedicated branch computation exists",
+      "construction_method": null,
+      "octonion_bridge_found": false,
+      "note": "R6 incorrectly claimed this was tested (as 'Z43'). No such file exists. Cannot be evaluated for R7 without first building it, which is out of scope."
+    },
+    "E7xSU(2)": {
+      "status_in_repo": "NOT FOUND as a dedicated branch computation -- retracted from R6",
+      "construction_method": null,
+      "octonion_bridge_found": false,
+      "note": "Same as SU(9): R6 overclaimed this was tested. Only incidental mentions exist, no computation."
+    },
+    "F4xG2": {
+      "status_in_repo": "MISLABELED in R6",
+      "construction_method": "phase_z39_e8_cubic_obstruction tests the E8 cubic Casimir/Schur obstruction WITHIN the already-adopted E6xSU(3)_f branch -- a flavon-dynamics question, not a branch-selection question",
+      "octonion_bridge_found": false,
+      "note": "No F4xG2 branch computation exists anywhere in this repo. R6 conflated Z39's actual subject with a different, untested branch."
+    }
+  },
+  "verdict": "3 -- no branches survive, and not for six different branch-specific reasons: every branch actually computed in this repo (3 of the 6 claimed) shares one identical, foundational obstruction -- Phase A2's E8 (and Z44's SU5xSU5) are built entirely in an abstract Cartan/root-space representation that has never been connected, anywhere in this project's code, to Phase A1's octonion left-multiplication operators. The other 3 claimed branches do not exist as computations at all (R6 overclaim, retracted here).",
+  "project_status_unchanged": "0/19"
+}

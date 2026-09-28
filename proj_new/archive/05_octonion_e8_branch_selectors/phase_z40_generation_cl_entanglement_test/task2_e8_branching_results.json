@@ -1,0 +1,8 @@
+{
+  "a2_e6_split_found": true,
+  "n_a2_roots": 6,
+  "n_e6_complement_roots": 72,
+  "a2_weyl_group_order": 6,
+  "matches_S3": true,
+  "verdict": "The only discrete flavor symmetry available from E8's root system without external input is the SU(3)_f Weyl group itself, S3 (order 6) -- the same group Gresnigt's independent construction and this project's own Z22 already used. E8 does not algebraically select any OTHER discrete subgroup (A4, S4, Delta(27), ...) commonly used in flavor model-building; those remain externally imported choices, not forced by the algebra."
+}

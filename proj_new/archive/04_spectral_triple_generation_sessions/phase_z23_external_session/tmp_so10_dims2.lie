@@ -1,0 +1,8 @@
+setdefault D5;
+print(dim([0,0,1,0,1]));
+print(dim([1,0,0,1,0]));
+print(dim([1,0,1,0,0]));
+print(dim([1,1,0,0,0]));
+print(dim([0,1,0,0,1]));
+print(dim([0,1,0,1,0]));
+print(dim([0,0,0,0,3]));

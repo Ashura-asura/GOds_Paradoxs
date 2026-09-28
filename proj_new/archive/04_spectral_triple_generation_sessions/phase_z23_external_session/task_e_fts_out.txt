@@ -1,0 +1,21 @@
+56 weights of E7 (from E8 -> E7xA1): 56 distinct; integer Dynkin labels OK
+56 is self-dual (28 opposite pairs) OK
+the 56 weights form the single Weyl orbit of (0, 0, 0, 0, 0, 0, 1) (56 elements) OK
+Serre relations on the 56 module: ALL VERIFIED
+invariant skew form J: unique up to scale; sigma(w) = J(v_w, v_-w) in {1, -1}
+J-invariance under all e_i, f_i (21 generators): OK
+torus-invariant quartic monomials: 1036
+distinct E7-invariance equations: 2736 (expect ~ tens of thousands, rank 1035)
+number of pivots: 1035 -> nullspace dim: 1
+free monomials: 1
+nullspace dimension: 1
+E7-invariant quartic solved: nonzero monomials: 1036 ; sample: {((0, 0, 0, 0, 0, 0, -1), (0, 0, 0, 0, 0, 0, -1), (0, 0, 0, 0, 0, 0, 1), (0, 0, 0, 0, 0, 0, 1)): 1}
+polarization identity B(x,x,x,x) = 24 q(x): OK on random vectors
+E7-invariance of q: 67536 weight-constrained checks, ALL ZERO (e_i . q = 0)
+Q-table on weight-conserving quadruples: 24360
+FTS: D(a,b) = {v_a, v_b, .} in stab(q): 1 T_D checks over all 3136 pairs, FAILED
+Traceback (most recent call last):
+  File "/mnt/c/Users/bisha/Desktop/gods_paradox/session_new_files/phase_z23_external_session/tmp_task_e_fts.py", line 459, in <module>
+    assert bad == 0
+           ^^^^^^^^
+AssertionError

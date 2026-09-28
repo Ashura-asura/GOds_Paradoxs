@@ -1,0 +1,10 @@
+setdefault D5;
+m = fundam(id(5)-5);
+r = res_mat(m);
+h = Cartan_type(m);
+t = tensor([0,0,0,1,0], [0,0,0,1,0]);
+print("16 x 16 decomposition (D5):"); print(t);
+print("branch 16 x 16:"); print(branch(t, h, r));
+print("branch 10:"); print(branch([1,0,0,0,0], h, r));
+print("branch 120:"); print(branch([0,0,1,0,0], h, r));
+print("branch 126:"); print(branch([0,0,0,2,0], h, r));

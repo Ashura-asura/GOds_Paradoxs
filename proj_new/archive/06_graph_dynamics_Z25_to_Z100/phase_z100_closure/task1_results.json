@@ -1,0 +1,36 @@
+{
+  "N": 10,
+  "M": 15,
+  "input_entropy_bits_exact_log2_C45_15": 38.32725090938838,
+  "random_selector": {
+    "selector": "random",
+    "n_chains_valid": 60,
+    "period_distribution": {
+      "None": 60
+    },
+    "num_distinct_attractor_keys": 48,
+    "output_entropy_bits_over_attractors": 5.4483943455364034,
+    "lyapunov_monotone_chain_counts_out_of": {
+      "theta": 3,
+      "aut": 0,
+      "total": 60
+    }
+  },
+  "lex_selector": {
+    "selector": "lex",
+    "n_chains_valid": 60,
+    "period_distribution": {
+      "2": 60
+    },
+    "num_distinct_attractor_keys": 44,
+    "output_entropy_bits_over_attractors": 5.202479553833679,
+    "lyapunov_monotone_chain_counts_out_of": {
+      "theta": 41,
+      "aut": 8,
+      "total": 60
+    }
+  },
+  "H1_period2_persists_under_deterministic_lex_selector": true,
+  "H1_random_selector_note": "A stochastic selector cannot show exact period-2 in raw canonical-key space by construction (tie-break re-randomizes every step). Measured period-2 fraction under random selector: 0.000. Earlier claims of a period-2 attractor under a random selector referred to tie-CLASS space (Z30/Z33), not raw isomorphism-class space; logged as a corrected presentation artifact (Rule-7).",
+  "H3_no_scalar_lyapunov_lex_deterministic": true
+}

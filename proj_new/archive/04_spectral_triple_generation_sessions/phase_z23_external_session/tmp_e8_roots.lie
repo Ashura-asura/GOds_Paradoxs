@@ -1,0 +1,6 @@
+setdefault E8;
+r = pos_roots(E8);
+print("positive roots count:"); print(n_rows(r));
+print("last positive root (should be highest):"); print(r[n_rows(r)]);
+hr = r[n_rows(r)];
+print(hr);

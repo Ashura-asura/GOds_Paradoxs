@@ -1,0 +1,12 @@
+setdefault E6;
+m = fundam(id(6) - 6);
+r = res_mat(m);
+h = Cartan_type(m);
+print("restriction matrix:"); print(r);
+v = null(6); v[1] = 1;
+print("27 ->"); print(branch(v, h, r));
+print("2925 ->"); print(branch([0,0,0,1,0,0], h, r));
+print("78 ->"); print(branch([0,1,0,0,0,0], h, r));
+print("650 ->"); print(branch([1,0,0,0,0,1], h, r));
+print("5824 ->"); print(branch([1,0,1,0,0,0], h, r));
+print("3003 ->"); print(branch([3,0,0,0,0,0], h, r));

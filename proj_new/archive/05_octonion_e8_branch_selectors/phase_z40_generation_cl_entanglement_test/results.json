@@ -1,0 +1,71 @@
+{
+  "task1_commutant_results.json": {
+    "su3f_hermitian": true,
+    "su3f_traceless": true,
+    "commutant_nullspace_dim": 1,
+    "max_deviation_from_pure_identity": 3.362640137706309e-16,
+    "branching_dim_total": 248,
+    "branching_consistent_with_248": true,
+    "verdict": "CONFIRMED, independently reproduced: the commutant of su(3)_f on the generation factor C^3 is exactly 1-dimensional and proportional to I_3 (Schur's Lemma for an irreducible fundamental action), matching Z21. The E6 factor is structurally guaranteed to be a spectator on the generation index by the external-tensor-product form of the branching, not by an additional unverified assumption."
+  },
+  "task2_e8_branching_results.json": {
+    "a2_e6_split_found": true,
+    "n_a2_roots": 6,
+    "n_e6_complement_roots": 72,
+    "a2_weyl_group_order": 6,
+    "matches_S3": true,
+    "verdict": "The only discrete flavor symmetry available from E8's root system without external input is the SU(3)_f Weyl group itself, S3 (order 6) -- the same group Gresnigt's independent construction and this project's own Z22 already used. E8 does not algebraically select any OTHER discrete subgroup (A4, S4, Delta(27), ...) commonly used in flavor model-building; those remain externally imported choices, not forced by the algebra."
+  },
+  "task3_yukawa_search_results.json": [
+    {
+      "name": "Case A -- outer product of two (27,3) triplets, Y_ij = v_i w_j",
+      "rank": 1,
+      "eigenvalue_magnitudes": [
+        0.0,
+        0.0,
+        3.902653
+      ],
+      "n_distinct_magnitudes": 2
+    },
+    {
+      "name": "Case B1 -- one (3,3bar) pair",
+      "rank": 1,
+      "eigenvalue_magnitudes": [
+        0.0,
+        0.0,
+        0.973535
+      ],
+      "n_distinct_magnitudes": 2
+    },
+    {
+      "name": "Case B2 -- two independent (3,3bar) pairs (sum)",
+      "rank": 2,
+      "eigenvalue_magnitudes": [
+        0.0,
+        1.173352,
+        2.235088
+      ],
+      "n_distinct_magnitudes": 3
+    },
+    {
+      "name": "Case B3 -- three independent (3,3bar) pairs (sum)",
+      "rank": 3,
+      "eigenvalue_magnitudes": [
+        0.425984,
+        2.174308,
+        4.833649
+      ],
+      "n_distinct_magnitudes": 3
+    },
+    {
+      "name": "Case C -- adjoint (1,8) flavon M (traceless Hermitian)",
+      "rank": 3,
+      "eigenvalue_magnitudes": [
+        0.412527,
+        2.332816,
+        2.745343
+      ],
+      "n_distinct_magnitudes": 3
+    }
+  ]
+}

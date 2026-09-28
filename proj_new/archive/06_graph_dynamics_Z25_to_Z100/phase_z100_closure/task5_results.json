@@ -1,0 +1,81 @@
+{
+  "graphs": {
+    "Shrikhande": {
+      "srg_params(n,k,lambda_set,mu_set)": {
+        "n": 16,
+        "k": 6,
+        "lambda": [
+          2
+        ],
+        "mu": [
+          2
+        ]
+      },
+      "spectrum_rounded": [
+        -2.0,
+        -2.0,
+        -2.0,
+        -2.0,
+        -2.0,
+        -2.0,
+        -2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        6.0
+      ],
+      "clique_number_omega": 3,
+      "independence_number_alpha": 4,
+      "num_maximal_cliques_of_size_4": 0,
+      "Theta_twin_channel": 0,
+      "exact_|Aut|": 192
+    },
+    "Rook_4x4": {
+      "srg_params(n,k,lambda_set,mu_set)": {
+        "n": 16,
+        "k": 6,
+        "lambda": [
+          2
+        ],
+        "mu": [
+          2
+        ]
+      },
+      "spectrum_rounded": [
+        -2.0,
+        -2.0,
+        -2.0,
+        -2.0,
+        -2.0,
+        -2.0,
+        -2.0,
+        -2.0,
+        -2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        6.0
+      ],
+      "clique_number_omega": 4,
+      "independence_number_alpha": 4,
+      "num_maximal_cliques_of_size_4": 8,
+      "Theta_twin_channel": 0,
+      "exact_|Aut|": 1152
+    }
+  },
+  "verdict": {
+    "cospectral_confirmed": true,
+    "same_srg_params_confirmed": true,
+    "2WL_prediction": "2-WL sees only (n,k,lambda,mu) -> predicts INDISTINGUISHABLE (confirmed negative control)",
+    "clique_number_separates_them": true,
+    "conclusion": "The missing invariant is CLIQUE STRUCTURE (equivalently, 3-WL-level information / local subgraph counts beyond triangles): Rook(4x4) is a line graph of K4,4 and contains 8 maximal cliques of size 4 (4 rows + 4 columns); the Shrikhande graph has clique number 3 and contains none. This is NOT visible to 2-WL (which only recovers SRG parameters n,k,lambda,mu) but IS visible to exact clique enumeration / 3-WL. Neither graph has any twins (Theta=0 for both), so this is a genuine ALGEBRAIC-channel separation, orthogonal to the twin channel."
+  }
+}

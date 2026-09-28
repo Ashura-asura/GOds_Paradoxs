@@ -1,0 +1,9 @@
+{
+  "su3f_hermitian": true,
+  "su3f_traceless": true,
+  "commutant_nullspace_dim": 1,
+  "max_deviation_from_pure_identity": 3.362640137706309e-16,
+  "branching_dim_total": 248,
+  "branching_consistent_with_248": true,
+  "verdict": "CONFIRMED, independently reproduced: the commutant of su(3)_f on the generation factor C^3 is exactly 1-dimensional and proportional to I_3 (Schur's Lemma for an irreducible fundamental action), matching Z21. The E6 factor is structurally guaranteed to be a spectator on the generation index by the external-tensor-product form of the branching, not by an additional unverified assumption."
+}

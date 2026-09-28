@@ -1,0 +1,19 @@
+{
+  "phase": "Z42",
+  "title": "Intrinsic Cl(10) x E8 Constraint Search (No Imported Assumptions)",
+  "status": "closed_negative_generalized",
+  "note": "Run scripts/run_all.py to regenerate scripts/results_task{1..5}.json from a clean environment. This file summarizes their conclusions; it does not duplicate the raw numbers.",
+  "task_summaries": {
+    "task1_representation": "SU(3)_f content of the FULL E8 adjoint (248), not just the (27,3) matter piece, is exactly {1,3,3bar,8}. The 8 supplies no new invariant-theory generator (3x3bar=1+8, exact).",
+    "task2_invariant_search": "delta_ij and epsilon_ijk confirmed invariant to machine/MC precision; a generic non-epsilon rank-3 tensor confirmed NOT invariant in >95% of random SU(3) trials, consistent with epsilon being the unique rank-3 invariant.",
+    "task3_vacuum": "The general SU(3)_f-invariant single-flavon potential is a function of |phi|^2 only, at every order. Minimization fixes a magnitude, never a direction -- confirmed by direct minimization over random directions at the analytic radius.",
+    "task4_freedom": "Single-flavon epsilon texture delivers ~1 physical real degree of freedom (an overall scale) against a physical target of ~10 per fermion sector (6 masses + 3 mixing angles + 1 phase). Not a near-miss -- an order-of-magnitude shortfall.",
+    "task5_no_go": "Formal L2 no-go theorem: under the standing E8->E6xSU(3)_f branching assumption, no order of E8 structure constants (not just the cubic Casimir tested in Z39) can produce a non-degenerate 3-generation Yukawa texture from a single SU(3)_f flavon, and the associated potential can never select a flavor direction. Generalizes Z39/Z40 from specific cases to all orders via the classical First Fundamental Theorem of SU(3) invariant theory (Weyl 1939)."
+  },
+  "escape_routes_remaining": [
+    "Non-factorized generation space (NCG / spectral-triple route) -- explicitly outside this theorem's hypothesis; flagged open since Z22, still needs tooling this environment lacks.",
+    "Alternative E8 maximal-subgroup chains other than E6 x SU(3)_f -- never tested in this project.",
+    "Hand-imported higher-rep flavons (6, 10, ...) not supplied by E8 itself -- excluded by Rule 1, not by this theorem."
+  ],
+  "verdict_on_original_z42_question": "Cl(10) x E8 does NOT force a unique Yukawa/vacuum direction without imported structure, under the standing branching assumption -- and this phase shows the failure is generic to all orders of the algebra, not an artifact of which specific invariant was tried. This closes the 'try another E8 invariant' branch of the search. It does not close the project: the NCG/spectral-triple route remains the one substantive door left, per PROJECT_STATE_HANDOFF.md."
+}

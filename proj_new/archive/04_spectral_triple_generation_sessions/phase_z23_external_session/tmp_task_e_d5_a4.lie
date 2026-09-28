@@ -1,0 +1,11 @@
+setdefault D5;
+m = fundam(id(5)-5);
+r = res_mat(m);
+h = Cartan_type(m);
+print("restriction matrix D5 -> A4xU1:"); print(r);
+print("branch 16:"); print(branch([0,0,0,1,0], h, r));
+print("branch 16bar:"); print(branch([0,0,0,0,1], h, r));
+print("branch 10:"); print(branch([1,0,0,0,0], h, r));
+print("branch 45:"); print(branch([0,1,0,0,0], h, r));
+print("branch 126:"); print(branch([0,0,0,2,0], h, r));
+print("branch 120:"); print(branch([0,0,1,0,0], h, r));

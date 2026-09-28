@@ -1,0 +1,15 @@
+{
+  "cubic_self_contraction_vanishes_confirmed": true,
+  "cubic_self_contraction_max_value": 0.0,
+  "general_invariant_potential": "V(phi) = -mu^2 |phi|^2 + lambda |phi|^4 + O(|phi|^6) -- function of |phi|^2 only",
+  "number_of_independent_quartic_invariants": 1,
+  "vacuum_structure": "discrete_in_magnitude_continuous_in_direction",
+  "minimization_check": {
+    "v_star": 1.0,
+    "V_at_minimum": -0.5,
+    "flat_along_SU3f_orbit_at_fixed_radius": true,
+    "std_along_orbit": 0.0,
+    "min_is_lower_than_offradius_samples": true
+  },
+  "conclusion": "The invariant potential is a function of |phi|^2 alone at every order (Task 2 result). Minimization therefore always fixes |phi| to a discrete value (or leaves it at 0, depending on the sign of mu^2) but never selects a direction in SU(3)_f space: the full SU(3)_f orbit of any minimum is degenerate. The 'missing information' Z39/Z40 already identified is exactly this: no SU(3)_f-invariant potential built from a single flavon can ever supply the missing directional information, at any order, because no such invariant exists to be minimized against."
+}

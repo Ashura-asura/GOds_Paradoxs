@@ -1,0 +1,45 @@
+{
+  "N": 10,
+  "M": 15,
+  "n_events": 6250,
+  "base_rate_twin_gain_positive": 0.0888,
+  "H_binary_bits": 0.4324516393251285,
+  "mutual_information_bits": {
+    "R": 0.007744988094408531,
+    "A": 0.008589716683420106,
+    "TH0": 1.7975753917568067e-06,
+    "DV": 5.725112835426106e-07,
+    "DE": 5.725112835426106e-07,
+    "R,A_joint": 0.00896251355450079,
+    "R,A,TH0_joint": 0.01048252433552644
+  },
+  "ranking_single_variables": [
+    [
+      "A",
+      0.008589716683420106
+    ],
+    [
+      "R",
+      0.007744988094408531
+    ],
+    [
+      "TH0",
+      1.7975753917568067e-06
+    ],
+    [
+      "DV",
+      5.725112835426106e-07
+    ],
+    [
+      "DE",
+      5.725112835426106e-07
+    ]
+  ],
+  "minimal_sufficient_statistic_check": {
+    "I(gain;R,A)": 0.00896251355450079,
+    "I(gain;R,A,TH0)": 0.01048252433552644,
+    "additional_info_from_TH0_given_R_A": 0.0015200107810256491,
+    "interpretation": "If I(gain;R,A,TH0) - I(gain;R,A) is small relative to H_T, (R,A) alone is close to a minimal sufficient statistic."
+  },
+  "verdict": "H2 (tie geometry R,A dominates) -- SURVIVES"
+}

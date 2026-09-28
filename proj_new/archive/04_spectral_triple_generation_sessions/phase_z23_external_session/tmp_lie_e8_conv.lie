@@ -1,0 +1,9 @@
+setdefault E8;
+pr = pos_roots(E8);
+# print the last few positive roots to see the coordinate convention
+print("last positive root (highest):"); print(pr[n_rows(pr)]);
+print("first 3 positive roots:"); print(pr[1]); print(pr[2]); print(pr[3]);
+# simple roots in LiE are unit vectors; find which of them are roots (they all are)
+# Also check: does LiE use the convention where root coordinates are in the
+# simple-root basis? Then [1,0,0,0,0,0,0,0] is alpha_1.
+print("is [1,0,0,0,0,0,0,0] a root?"); print(pr[1] == [1,0,0,0,0,0,0,0]);

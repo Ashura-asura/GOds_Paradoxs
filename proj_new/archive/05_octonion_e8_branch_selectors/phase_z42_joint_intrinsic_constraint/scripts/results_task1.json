@@ -1,0 +1,40 @@
+{
+  "branching_source": "Slansky 1981, Table 82 (E8 -> E6 x SU(3))",
+  "branching": [
+    {
+      "E6_irrep": "78",
+      "E6_dim": 78,
+      "SU3f_irrep": "1",
+      "SU3f_dim": 1
+    },
+    {
+      "E6_irrep": "1",
+      "E6_dim": 1,
+      "SU3f_irrep": "8",
+      "SU3f_dim": 8
+    },
+    {
+      "E6_irrep": "27",
+      "E6_dim": 27,
+      "SU3f_irrep": "3",
+      "SU3f_dim": 3
+    },
+    {
+      "E6_irrep": "27bar",
+      "E6_dim": 27,
+      "SU3f_irrep": "3bar",
+      "SU3f_dim": 3
+    }
+  ],
+  "total_dim_check": 248,
+  "expected_dim": 248,
+  "dim_check_passed": true,
+  "SU3f_irrep_content_of_248": [
+    "1",
+    "3",
+    "3bar",
+    "8"
+  ],
+  "octet_reduces_to_delta_epsilon_building_blocks": true,
+  "conclusion": "The SU(3)_f content of the full 248 is exactly {1, 3, 3bar, 8}. The 8 (from (1,8), i.e. the SU(3)_f gauge bosons sitting inside E8's own adjoint) is not a new invariant-theory generator: 3 x 3bar = 1 + 8 means every octet component is already a traceless bilinear in a 3 and a 3bar. No representation beyond {1,3,3bar} (and their tensor combinations) is ever supplied by E8 at any point in the branching -- this holds for the FULL adjoint, not just the (27,3) matter piece Z39 tested."
+}

@@ -1,0 +1,78 @@
+{
+ "V1": {
+  "states": 200,
+  "perms": 3,
+  "violations": 0
+ },
+ "V2": {
+  "iso_pairs_checked": 2500,
+  "counterexamples_nx": 1105,
+  "inv_key_diffs_on_ce": 1105,
+  "ex_key_artifacts_on_iso_successors": 0,
+  "example": {
+   "g": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     8
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "gp": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     6
+    ]
+   ],
+   "lex_successor_iso": false
+  }
+ },
+ "V3": {
+  "iso_pairs": 1500,
+  "violations": 0
+ },
+ "V4": {
+  "n_chains": 200,
+  "cap": 64,
+  "median_tau_star": 7.0,
+  "tau_star_dist": {
+   "6": 42,
+   "7": 72,
+   "8": 45,
+   "5": 23,
+   "9": 11,
+   "10": 3,
+   "4": 4
+  },
+  "endpoint_support_star": 5,
+  "median_tau_lex": 7.0,
+  "tau_lex_dist": {
+   "7": 55,
+   "6": 40,
+   "8": 45,
+   "5": 26,
+   "4": 6,
+   "9": 19,
+   "10": 4,
+   "11": 2,
+   "3": 3
+  },
+  "endpoint_support_lex": 8,
+  "n_not_converged_star": 0,
+  "n_not_converged_lex": 0
+ }
+}

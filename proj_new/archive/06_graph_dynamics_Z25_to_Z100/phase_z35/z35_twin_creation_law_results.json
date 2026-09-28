@@ -1,0 +1,59 @@
+{
+  "protocol": "z35_twin_creation_law.py (Rule-2 pre-registered 2026-08-02, cell (10,15))",
+  "status": "RUN 2026-08-03 after audit: harness found unrun, no Rule-8 ledger entry existed despite Files-section claim",
+  "bugfix": [
+    "degree_stats: sum()/iteration over dict returned KEYS -> variance was constant 8.25, I_var=0.0000 artifact; fixed to list(E.degrees(g).values())",
+    "random_graph_same_deg(degrees,...): received dict -> config-model null never built, control_null_rate null; fixed by degree_stats change",
+    "pre-fix run: I_var=0.0000, P_twin_given_varebin={'low':0.439}, control_null_rate=null -> all artifacts"
+  ],
+  "canon_rerun": "2026-08-03 Rule-8 #1/#2 fix (iso-invariant block canon in z25b_engine_v2): tau is now a true iso-class revisit time (before: labeled-state revisit, tau inflated for asymmetric graphs). Re-ran the exact same pre-registered protocol.",
+  "seed0": 20260802,
+  "rng": "SEED0 + 131*s + 991*len(mode)",
+  "n_chains": 450,
+  "chain_cap": 512,
+  "result": {
+    "cell": [10, 15],
+    "n_steps": 2569,
+    "n_jump_twin": 1611,
+    "twin_rate": 0.6271,
+    "H_T": 0.9529,
+    "I_tau": 0.1188,
+    "I_var": 0.2147,
+    "I_rep": 0.008,
+    "I_deg": 0.2227,
+    "I_joint": 0.467,
+    "I_deg_given_tau": 0.3481,
+    "I_tau_given_deg": 0.2443,
+    "H2_wins": false,
+    "H1_wins": false,
+    "H3_wins": false,
+    "verdict": "mixed - see tables",
+    "P_twin_given_tau_top": {"(3, 5)": 1.0, "(2, 6)": 1.0, "(3, 8)": 1.0, "(5, 5)": 1.0, "(1, 3)": 0.7934},
+    "P_twin_given_varebin": {"low": 0.2579, "med": 0.7933, "high": 0.834},
+    "control_null_mean_twin_gain": 0.017,
+    "control_null_rate": 0.2041,
+    "control_obs_rate": 0.6271,
+    "complement_mean_twin_gain": 1.966,
+    "observed_mean_twin_gain": 1.966
+  },
+  "postfix_vs_prefix": {
+    "n_steps": "3911 -> 2569",
+    "twin_rate": "0.439 -> 0.6271",
+    "I_tau": "0.3762 -> 0.1188 (tau info dominated by the canon artifact before)",
+    "I_deg": "0.2468 -> 0.2227",
+    "I_deg_given_tau": "0.2199 -> 0.3481",
+    "I_tau_given_deg": "0.3494 -> 0.2443",
+    "P_twin_given_varebin": "low 0.4014 / med 0.7252 / high 0.1872 -> low 0.2579 / med 0.7933 / high 0.834 (now MONOTONE increasing)",
+    "control_null_rate": "0.2027 -> 0.2041; obs 0.439 -> 0.6271 vs null 0.2041 (3.07x)",
+    "complement_control": "still tautological (twin relation complement-invariant, 1.966==1.966)"
+  },
+  "interpretation": [
+    "I_deg (0.2227) now exceeds I_tau (0.1188): with tau as a true iso-class revisit time, tau information is no longer the dominant predictor; degree variance is (ranking FLIPPED vs the pre-fix artifact where I_tau=0.3762 > I_deg=0.2468)",
+    "I_deg_given_tau = 0.3481: degree variance adds substantial info beyond tau",
+    "P(TwinGain|var): low 0.2579 < med 0.7933 < high 0.834 — MONOTONIC increasing in degree variance (pre-fix artifact showed a spurious mid-variance peak)",
+    "config-model null twin rate 0.2041 vs observed 0.6271: 3.07x lift over degree-sequence baseline",
+    "complement twin-gain == observed (1.966==1.966): forced by complement-invariance of the twin relation; control adds no information",
+    "verdict: MIXED — no single predictor wins the pre-registered 2x-gates (H1/H2/H3 wins all false); consistent with the fixed-canon main protocol where I_J_theta > I_J_tau (theta/degree carries the information)"
+  ],
+  "consistency_with_main_protocol": "main z35 tie-collapse protocol re-derived after the canon fix: I_J_theta=0.1929 > I_J_tau=0.1381 (h2_gate now PASSES). This draft uses TwinGain>0 (ratio unset) so the numbers differ, but the ranking (degree/theta variance over tau) is now the SAME: tau loses to degree variance in both."
+}

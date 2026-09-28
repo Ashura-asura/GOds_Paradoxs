@@ -1,0 +1,9 @@
+{
+  "order_S5": 120,
+  "order_full_hyperoctahedral": 3840,
+  "order_weyl_D5": 1920,
+  "order_stabilizer_3plus2_block": 12,
+  "order_stabilizer_bare_3subset": 6,
+  "num_conjugate_3plus2_subgroups": 10,
+  "S3xS2_is_maximal_in_S5": true
+}
