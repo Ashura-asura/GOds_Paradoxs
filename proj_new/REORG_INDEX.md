@@ -4,7 +4,7 @@ The live thread is untouched in content, just relocated:
 
 | Old | New |
 |---|---|
-| `MASTER_ROADMAP.md` | `ACTIVE_phase_S/MASTER_ROADMAP.md` |
+| `MASTER_ROADMAP.md` | `ACTIVE_phase_S/whole_idea.md` |
 | `PROJECT_STATE_HANDOFF.md` (top level) | `ACTIVE_phase_S/PROJECT_STATE_HANDOFF.md` |
 | `phase_S0_prior_art_lock/` … `phase_S5_external_contact/` | `ACTIVE_phase_S/phase_S0_prior_art_lock/` … `phase_S5_external_contact/` (unchanged) |
 

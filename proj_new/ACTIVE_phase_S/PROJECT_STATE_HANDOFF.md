@@ -7,7 +7,7 @@ honest literature-locked starting point for the one question the full prior
 audit identified as still open.
 
 ## Read in this order
-1. `MASTER_ROADMAP.md` — the gated Phase S plan and why it exists.
+1. `whole_idea.md` — the gated Phase S plan and why it exists.
 2. `phase_S0_prior_art_lock/README.md` — DONE. The literature check that
    scopes what's actually still open (short answer: whether a Dirac operator
    built from Cl(10)/octonion/E8 data, rather than the free Connes-Chamseddine
